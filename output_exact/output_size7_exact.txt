@@ -1,0 +1,2936 @@
+a -> g/1 
+b -> g/1 
+c -> g/1 
+d -> g/1 
+e -> g/1 
+f -> g/1 
+g -> a/1 b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 0
+b/a c/ba d/cba e/dcba f/edcba g/fedcba 
+---------------------------------------------------------
+
+a -> f/1 g/1 
+b -> g/1 
+c -> g/1 
+d -> g/1 
+e -> g/1 
+f -> a/1 
+g -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+b/a c/ba d/cba e/dcba f/edcba g/fedcba 
+---------------------------------------------------------
+
+a -> f/1 g/1 
+b -> g/1 
+c -> g/1 
+d -> g/1 
+e -> g/1 
+f -> a/1 g/1 
+g -> a/1 b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 0
+c/b d/cb e/dcb f/a fa/edcb g/faedcb 
+---------------------------------------------------------
+
+a -> f/1 g/1 
+b -> f/1 
+c -> g/1 
+d -> g/1 
+e -> g/1 
+f -> a/1 b/1 
+g -> a/1 c/1 d/1 e/1 
+
+twin_width : 1
+b/a d/c e/dc f/ba fba/edc g/fbaedc 
+---------------------------------------------------------
+
+a -> f/1 
+b -> f/1 
+c -> g/1 
+d -> g/1 
+e -> g/1 
+f -> a/1 b/1 g/1 
+g -> c/1 d/1 e/1 f/1 
+
+twin_width : 1
+b/a d/c e/dc f/ba fba/edc g/fbaedc 
+---------------------------------------------------------
+
+a -> f/1 g/1 
+b -> f/1 g/1 
+c -> g/1 
+d -> g/1 
+e -> g/1 
+f -> a/1 b/1 
+g -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+b/a c/ba d/cba e/dcba f/edcba g/fedcba 
+---------------------------------------------------------
+
+a -> f/1 g/1 
+b -> f/1 
+c -> g/1 
+d -> g/1 
+e -> g/1 
+f -> a/1 b/1 g/1 
+g -> a/1 c/1 d/1 e/1 f/1 
+
+twin_width : 1
+b/a d/c e/dc f/ba fba/edc g/fbaedc 
+---------------------------------------------------------
+
+a -> f/1 g/1 
+b -> f/1 g/1 
+c -> g/1 
+d -> g/1 
+e -> g/1 
+f -> a/1 b/1 g/1 
+g -> a/1 b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 0
+b/a d/c e/dc f/ba fba/edc g/fbaedc 
+---------------------------------------------------------
+
+a -> f/1 g/1 
+b -> f/1 
+c -> f/1 
+d -> g/1 
+e -> g/1 
+f -> a/1 b/1 c/1 
+g -> a/1 d/1 e/1 
+
+twin_width : 1
+b/a c/ba e/d f/cba fcba/ed g/fcbaed 
+---------------------------------------------------------
+
+a -> f/1 g/1 
+b -> f/1 g/1 
+c -> f/1 
+d -> g/1 
+e -> g/1 
+f -> a/1 b/1 c/1 
+g -> a/1 b/1 d/1 e/1 
+
+twin_width : 1
+b/a c/ba e/d f/cba fcba/ed g/fcbaed 
+---------------------------------------------------------
+
+a -> f/1 g/1 
+b -> f/1 
+c -> f/1 
+d -> g/1 
+e -> g/1 
+f -> a/1 b/1 c/1 g/1 
+g -> a/1 d/1 e/1 f/1 
+
+twin_width : 1
+b/a c/ba e/d f/cba fcba/ed g/fcbaed 
+---------------------------------------------------------
+
+a -> f/1 g/1 
+b -> f/1 g/1 
+c -> f/1 g/1 
+d -> g/1 
+e -> g/1 
+f -> a/1 b/1 c/1 
+g -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+b/a c/ba d/cba e/dcba f/edcba g/fedcba 
+---------------------------------------------------------
+
+a -> f/1 g/1 
+b -> f/1 g/1 
+c -> f/1 
+d -> g/1 
+e -> g/1 
+f -> a/1 b/1 c/1 g/1 
+g -> a/1 b/1 d/1 e/1 f/1 
+
+twin_width : 1
+b/a c/ba e/d f/cba fcba/ed g/fcbaed 
+---------------------------------------------------------
+
+a -> f/1 g/1 
+b -> f/1 g/1 
+c -> f/1 g/1 
+d -> g/1 
+e -> g/1 
+f -> a/1 b/1 c/1 g/1 
+g -> a/1 b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 0
+b/a c/ba e/d f/cba fcba/ed g/fcbaed 
+---------------------------------------------------------
+
+a -> f/1 g/1 
+b -> f/1 g/1 
+c -> f/1 g/1 
+d -> f/1 
+e -> g/1 
+f -> a/1 b/1 c/1 d/1 
+g -> a/1 b/1 c/1 e/1 
+
+twin_width : 1
+b/a c/ba d/cba f/dcba fdcba/e g/fdcbae 
+---------------------------------------------------------
+
+a -> f/1 g/1 
+b -> f/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> g/1 
+f -> a/1 b/1 c/1 d/1 
+g -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+b/a c/ba d/cba e/dcba f/edcba g/fedcba 
+---------------------------------------------------------
+
+a -> f/1 g/1 
+b -> f/1 g/1 
+c -> f/1 g/1 
+d -> f/1 
+e -> g/1 
+f -> a/1 b/1 c/1 d/1 g/1 
+g -> a/1 b/1 c/1 e/1 f/1 
+
+twin_width : 1
+b/a c/ba d/cba f/dcba fdcba/e g/fdcbae 
+---------------------------------------------------------
+
+a -> f/1 g/1 
+b -> f/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> g/1 
+f -> a/1 b/1 c/1 d/1 g/1 
+g -> a/1 b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 0
+b/a c/ba d/cba f/dcba fdcba/e g/fdcbae 
+---------------------------------------------------------
+
+a -> f/1 g/1 
+b -> f/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> f/1 g/1 
+f -> a/1 b/1 c/1 d/1 e/1 
+g -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 0
+b/a c/ba d/cba e/dcba g/f gf/edcba 
+---------------------------------------------------------
+
+a -> f/1 g/1 
+b -> f/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> f/1 g/1 
+f -> a/1 b/1 c/1 d/1 e/1 g/1 
+g -> a/1 b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 0
+b/a c/ba d/cba e/dcba f/edcba g/fedcba 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> f/1 g/1 
+c -> g/1 
+d -> g/1 
+e -> a/1 
+f -> b/1 
+g -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+c/a d/ca e/dca g/edca f/b gedca/fb 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> f/1 g/1 
+c -> g/1 
+d -> g/1 
+e -> a/1 g/1 
+f -> b/1 
+g -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+c/a d/b e/ca eca/db f/ecadb g/fecadb 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> f/1 g/1 
+c -> g/1 
+d -> g/1 
+e -> a/1 g/1 
+f -> b/1 g/1 
+g -> a/1 b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 0
+d/c e/a ea/dc f/b fb/eadc g/fbeadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 
+b -> f/1 g/1 
+c -> g/1 
+d -> g/1 
+e -> a/1 
+f -> a/1 b/1 
+g -> b/1 c/1 d/1 
+
+twin_width : 1
+c/b d/cb f/e fe/a fea/dcb g/feadcb 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> f/1 g/1 
+c -> g/1 
+d -> g/1 
+e -> a/1 
+f -> a/1 b/1 
+g -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+b/a d/c f/e dc/ba fe/dcba g/fedcba 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> f/1 
+c -> g/1 
+d -> g/1 
+e -> a/1 g/1 
+f -> a/1 b/1 
+g -> a/1 c/1 d/1 e/1 
+
+twin_width : 1
+d/c e/a ea/dc f/b fb/eadc g/fbeadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 
+b -> f/1 g/1 
+c -> g/1 
+d -> g/1 
+e -> a/1 g/1 
+f -> a/1 b/1 
+g -> b/1 c/1 d/1 e/1 
+
+twin_width : 2
+b/a d/c e/ba eba/dc f/ebadc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> f/1 
+c -> g/1 
+d -> g/1 
+e -> a/1 
+f -> a/1 b/1 g/1 
+g -> a/1 c/1 d/1 f/1 
+
+twin_width : 2
+b/a d/c e/ba eba/dc f/ebadc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> f/1 g/1 
+c -> g/1 
+d -> g/1 
+e -> a/1 g/1 
+f -> a/1 b/1 
+g -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+b/a d/c e/ba eba/dc f/ebadc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> f/1 g/1 
+c -> g/1 
+d -> g/1 
+e -> a/1 
+f -> a/1 b/1 g/1 
+g -> a/1 b/1 c/1 d/1 f/1 
+
+twin_width : 1
+b/a d/c f/ba fba/dc fbadc/e g/fbadce 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> f/1 g/1 
+c -> g/1 
+d -> g/1 
+e -> a/1 g/1 
+f -> a/1 b/1 g/1 
+g -> a/1 b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 1
+b/a d/c e/ba eba/dc f/ebadc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> f/1 g/1 
+c -> f/1 
+d -> g/1 
+e -> a/1 
+f -> b/1 c/1 
+g -> a/1 b/1 d/1 
+
+twin_width : 1
+c/b f/cb fcb/d g/e fcbd/a ge/fcbda 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> f/1 
+c -> f/1 
+d -> g/1 
+e -> a/1 
+f -> b/1 c/1 g/1 
+g -> a/1 d/1 f/1 
+
+twin_width : 1
+c/b d/a e/da g/cb f/eda gcb/feda 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> f/1 g/1 
+c -> f/1 g/1 
+d -> g/1 
+e -> a/1 
+f -> b/1 c/1 
+g -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+c/b d/a e/da g/eda f/cb geda/fcb 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> f/1 g/1 
+c -> f/1 
+d -> g/1 
+e -> a/1 g/1 
+f -> b/1 c/1 
+g -> a/1 b/1 d/1 e/1 
+
+twin_width : 1
+c/b d/a e/da f/cb fcb/eda g/fcbeda 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> f/1 g/1 
+c -> f/1 
+d -> g/1 
+e -> a/1 
+f -> b/1 c/1 g/1 
+g -> a/1 b/1 d/1 f/1 
+
+twin_width : 1
+c/b f/cb fcb/d g/e fcbd/a ge/fcbda 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> f/1 
+c -> f/1 
+d -> g/1 
+e -> a/1 g/1 
+f -> b/1 c/1 g/1 
+g -> a/1 d/1 e/1 f/1 
+
+twin_width : 1
+c/b d/a e/da f/cb fcb/eda g/fcbeda 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> f/1 g/1 
+c -> f/1 g/1 
+d -> g/1 
+e -> a/1 g/1 
+f -> b/1 c/1 
+g -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+c/b d/a e/da eda/cb f/edacb g/fedacb 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> f/1 g/1 
+c -> f/1 g/1 
+d -> g/1 
+e -> a/1 
+f -> b/1 c/1 g/1 
+g -> a/1 b/1 c/1 d/1 f/1 
+
+twin_width : 1
+c/b d/a e/da f/cb fcb/eda g/fcbeda 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> f/1 g/1 
+c -> f/1 
+d -> g/1 
+e -> a/1 g/1 
+f -> b/1 c/1 g/1 
+g -> a/1 b/1 d/1 e/1 f/1 
+
+twin_width : 1
+c/b d/a e/da f/cb fcb/eda g/fcbeda 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> f/1 g/1 
+c -> f/1 g/1 
+d -> g/1 
+e -> a/1 g/1 
+f -> b/1 c/1 g/1 
+g -> a/1 b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 0
+c/b e/a ea/d f/cb fcb/ead g/fcbead 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> g/1 
+c -> g/1 
+d -> g/1 
+e -> a/1 f/1 
+f -> a/1 e/1 
+g -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+c/b d/cb e/a f/ea fea/dcb g/feadcb 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> g/1 
+c -> g/1 
+d -> g/1 
+e -> a/1 f/1 g/1 
+f -> a/1 e/1 
+g -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+c/b d/cb e/a ea/dcb f/eadcb g/feadcb 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> g/1 
+c -> g/1 
+d -> g/1 
+e -> a/1 f/1 g/1 
+f -> a/1 e/1 g/1 
+g -> a/1 b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 0
+c/b d/cb e/a f/ea fea/dcb g/feadcb 
+---------------------------------------------------------
+
+a -> e/1 f/1 
+b -> f/1 g/1 
+c -> f/1 
+d -> g/1 
+e -> a/1 g/1 
+f -> a/1 b/1 c/1 
+g -> b/1 d/1 e/1 
+
+twin_width : 2
+b/a c/ba e/cba ecba/d f/ecbad g/fecbad 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> f/1 g/1 
+c -> f/1 g/1 
+d -> g/1 
+e -> a/1 
+f -> a/1 b/1 c/1 
+g -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+b/a c/ba f/e d/cba fe/dcba g/fedcba 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> f/1 g/1 
+c -> f/1 
+d -> g/1 
+e -> a/1 g/1 
+f -> a/1 b/1 c/1 
+g -> a/1 b/1 d/1 e/1 
+
+twin_width : 1
+b/a e/ba eba/d f/c fc/ebad g/fcebad 
+---------------------------------------------------------
+
+a -> e/1 f/1 
+b -> f/1 g/1 
+c -> f/1 g/1 
+d -> g/1 
+e -> a/1 g/1 
+f -> a/1 b/1 c/1 
+g -> b/1 c/1 d/1 e/1 
+
+twin_width : 2
+b/a c/ba e/cba ecba/d f/ecbad g/fecbad 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> f/1 g/1 
+c -> f/1 
+d -> g/1 
+e -> a/1 
+f -> a/1 b/1 c/1 g/1 
+g -> a/1 b/1 d/1 f/1 
+
+twin_width : 2
+b/a c/ba e/cba ecba/d f/ecbad g/fecbad 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> f/1 
+c -> f/1 
+d -> g/1 
+e -> a/1 g/1 
+f -> a/1 b/1 c/1 g/1 
+g -> a/1 d/1 e/1 f/1 
+
+twin_width : 1
+c/b e/a ea/d f/ead fead/cb g/feadcb 
+---------------------------------------------------------
+
+a -> e/1 f/1 
+b -> f/1 g/1 
+c -> f/1 
+d -> g/1 
+e -> a/1 g/1 
+f -> a/1 b/1 c/1 g/1 
+g -> b/1 d/1 e/1 f/1 
+
+twin_width : 2
+b/a c/ba e/cba ecba/d f/ecbad g/fecbad 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> f/1 g/1 
+c -> f/1 g/1 
+d -> g/1 
+e -> a/1 g/1 
+f -> a/1 b/1 c/1 
+g -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+b/a c/ba e/cba ecba/d f/ecbad g/fecbad 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> f/1 g/1 
+c -> f/1 g/1 
+d -> g/1 
+e -> a/1 
+f -> a/1 b/1 c/1 g/1 
+g -> a/1 b/1 c/1 d/1 f/1 
+
+twin_width : 1
+b/a c/ba f/cba fcba/d fcbad/e g/fcbade 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> f/1 g/1 
+c -> f/1 
+d -> g/1 
+e -> a/1 g/1 
+f -> a/1 b/1 c/1 g/1 
+g -> a/1 b/1 d/1 e/1 f/1 
+
+twin_width : 1
+b/a e/ba eba/d f/ebad febad/c g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 
+b -> f/1 g/1 
+c -> f/1 g/1 
+d -> g/1 
+e -> a/1 g/1 
+f -> a/1 b/1 c/1 g/1 
+g -> b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 1
+c/b d/cb f/dcb fdcb/e fdcbe/a g/fdcbea 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> f/1 g/1 
+c -> f/1 g/1 
+d -> g/1 
+e -> a/1 g/1 
+f -> a/1 b/1 c/1 g/1 
+g -> a/1 b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 1
+b/a c/ba e/cba ecba/d f/ecbad g/fecbad 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> f/1 g/1 
+c -> f/1 g/1 
+d -> f/1 
+e -> a/1 
+f -> b/1 c/1 d/1 
+g -> a/1 b/1 c/1 
+
+twin_width : 1
+c/b d/cb f/dcb g/e fdcb/a ge/fdcba 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> f/1 g/1 
+c -> f/1 
+d -> f/1 
+e -> a/1 g/1 
+f -> b/1 c/1 d/1 
+g -> a/1 b/1 e/1 
+
+twin_width : 1
+c/b d/cb e/a f/dcb fdcb/ea g/fdcbea 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> f/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 
+f -> b/1 c/1 d/1 
+g -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+c/b d/cb e/a g/ea f/dcb gea/fdcb 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> f/1 g/1 
+c -> f/1 g/1 
+d -> f/1 
+e -> a/1 g/1 
+f -> b/1 c/1 d/1 
+g -> a/1 b/1 c/1 e/1 
+
+twin_width : 1
+c/b d/cb e/a f/dcb fdcb/ea g/fdcbea 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> f/1 g/1 
+c -> f/1 g/1 
+d -> f/1 
+e -> a/1 
+f -> b/1 c/1 d/1 g/1 
+g -> a/1 b/1 c/1 f/1 
+
+twin_width : 1
+c/b d/cb f/dcb g/e fdcb/a ge/fdcba 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> f/1 g/1 
+c -> f/1 
+d -> f/1 
+e -> a/1 g/1 
+f -> b/1 c/1 d/1 g/1 
+g -> a/1 b/1 e/1 f/1 
+
+twin_width : 1
+c/b d/cb e/a f/dcb fdcb/ea g/fdcbea 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> f/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 g/1 
+f -> b/1 c/1 d/1 
+g -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+c/b d/cb e/a ea/dcb f/eadcb g/feadcb 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> f/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 
+f -> b/1 c/1 d/1 g/1 
+g -> a/1 b/1 c/1 d/1 f/1 
+
+twin_width : 1
+c/b d/cb e/a f/dcb fdcb/ea g/fdcbea 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> f/1 g/1 
+c -> f/1 g/1 
+d -> f/1 
+e -> a/1 g/1 
+f -> b/1 c/1 d/1 g/1 
+g -> a/1 b/1 c/1 e/1 f/1 
+
+twin_width : 1
+c/b d/cb e/a f/dcb fdcb/ea g/fdcbea 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> f/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 g/1 
+f -> b/1 c/1 d/1 g/1 
+g -> a/1 b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 0
+c/b d/cb e/a f/dcb fdcb/ea g/fdcbea 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> f/1 g/1 
+c -> g/1 
+d -> g/1 
+e -> a/1 f/1 
+f -> a/1 b/1 e/1 
+g -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+b/a d/c e/ba f/eba feba/dc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> f/1 
+c -> g/1 
+d -> g/1 
+e -> a/1 f/1 g/1 
+f -> a/1 b/1 e/1 
+g -> a/1 c/1 d/1 e/1 
+
+twin_width : 1
+d/c e/a ea/b f/eab feab/dc g/feabdc 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> f/1 g/1 
+c -> g/1 
+d -> g/1 
+e -> a/1 f/1 g/1 
+f -> a/1 b/1 e/1 
+g -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+b/a d/c e/ba eba/dc f/ebadc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> f/1 g/1 
+c -> g/1 
+d -> g/1 
+e -> a/1 f/1 
+f -> a/1 b/1 e/1 g/1 
+g -> a/1 b/1 c/1 d/1 f/1 
+
+twin_width : 1
+b/a d/c e/ba f/eba feba/dc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> f/1 
+c -> g/1 
+d -> g/1 
+e -> a/1 f/1 g/1 
+f -> a/1 b/1 e/1 g/1 
+g -> a/1 c/1 d/1 e/1 f/1 
+
+twin_width : 1
+d/c e/a ea/b f/eab feab/dc g/feabdc 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> f/1 g/1 
+c -> g/1 
+d -> g/1 
+e -> a/1 f/1 g/1 
+f -> a/1 b/1 e/1 g/1 
+g -> a/1 b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 0
+d/c e/a ea/b f/eab feab/dc g/feabdc 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> f/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 
+f -> a/1 b/1 c/1 d/1 
+g -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+b/a c/ba d/cba f/e fe/dcba g/fedcba 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> f/1 g/1 
+c -> f/1 g/1 
+d -> f/1 
+e -> a/1 g/1 
+f -> a/1 b/1 c/1 d/1 
+g -> a/1 b/1 c/1 e/1 
+
+twin_width : 1
+b/a c/ba e/cba f/d fd/ecba g/fdecba 
+---------------------------------------------------------
+
+a -> e/1 f/1 
+b -> f/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 g/1 
+f -> a/1 b/1 c/1 d/1 
+g -> b/1 c/1 d/1 e/1 
+
+twin_width : 2
+b/a c/ba d/cba e/dcba f/edcba g/fedcba 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> f/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 g/1 
+f -> a/1 b/1 c/1 d/1 
+g -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+b/a c/ba d/cba e/dcba f/edcba g/fedcba 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> f/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 
+f -> a/1 b/1 c/1 d/1 g/1 
+g -> a/1 b/1 c/1 d/1 f/1 
+
+twin_width : 1
+b/a c/ba d/cba f/dcba fdcba/e g/fdcbae 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> f/1 g/1 
+c -> f/1 g/1 
+d -> f/1 
+e -> a/1 g/1 
+f -> a/1 b/1 c/1 d/1 g/1 
+g -> a/1 b/1 c/1 e/1 f/1 
+
+twin_width : 1
+b/a c/ba e/cba f/ecba fecba/d g/fecbad 
+---------------------------------------------------------
+
+a -> e/1 f/1 
+b -> f/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 g/1 
+f -> a/1 b/1 c/1 d/1 g/1 
+g -> b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 1
+c/b d/cb f/dcb fdcb/e fdcbe/a g/fdcbea 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> f/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 g/1 
+f -> a/1 b/1 c/1 d/1 g/1 
+g -> a/1 b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 1
+b/a c/ba d/cba e/dcba f/edcba g/fedcba 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> f/1 g/1 
+c -> f/1 
+d -> g/1 
+e -> a/1 f/1 g/1 
+f -> a/1 b/1 c/1 e/1 
+g -> a/1 b/1 d/1 e/1 
+
+twin_width : 1
+b/a e/ba eba/c f/ebac febac/d g/febacd 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> f/1 g/1 
+c -> f/1 g/1 
+d -> g/1 
+e -> a/1 f/1 g/1 
+f -> a/1 b/1 c/1 e/1 
+g -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+b/a c/ba e/cba ecba/d f/ecbad g/fecbad 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> f/1 g/1 
+c -> f/1 
+d -> g/1 
+e -> a/1 f/1 g/1 
+f -> a/1 b/1 c/1 e/1 g/1 
+g -> a/1 b/1 d/1 e/1 f/1 
+
+twin_width : 1
+b/a e/ba eba/c f/ebac febac/d g/febacd 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> f/1 g/1 
+c -> f/1 g/1 
+d -> g/1 
+e -> a/1 f/1 g/1 
+f -> a/1 b/1 c/1 e/1 g/1 
+g -> a/1 b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 0
+c/b e/a ea/cb f/eacb feacb/d g/feacbd 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> f/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 f/1 g/1 
+f -> a/1 b/1 c/1 d/1 e/1 
+g -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 0
+c/b d/cb e/a ea/dcb g/f gf/eadcb 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> f/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 f/1 g/1 
+f -> a/1 b/1 c/1 d/1 e/1 g/1 
+g -> a/1 b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 0
+c/b d/cb e/a ea/dcb f/eadcb g/feadcb 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> g/1 
+d -> g/1 
+e -> a/1 b/1 
+f -> a/1 b/1 
+g -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+b/a d/c f/e dc/ba fe/dcba g/fedcba 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 
+c -> g/1 
+d -> g/1 
+e -> a/1 b/1 g/1 
+f -> a/1 b/1 
+g -> a/1 c/1 d/1 e/1 
+
+twin_width : 2
+b/a d/c e/ba eba/dc f/ebadc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> g/1 
+d -> g/1 
+e -> a/1 b/1 g/1 
+f -> a/1 b/1 
+g -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+b/a d/c e/ba eba/dc f/ebadc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> g/1 
+d -> g/1 
+e -> a/1 b/1 g/1 
+f -> a/1 b/1 g/1 
+g -> a/1 b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 0
+b/a d/c f/e fe/ba feba/dc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> g/1 
+e -> a/1 b/1 
+f -> a/1 c/1 
+g -> b/1 c/1 d/1 
+
+twin_width : 2
+b/a d/c e/ba eba/dc f/ebadc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 
+b -> e/1 
+c -> f/1 g/1 
+d -> g/1 
+e -> a/1 b/1 g/1 
+f -> a/1 c/1 
+g -> c/1 d/1 e/1 
+
+twin_width : 2
+b/a d/c e/ba eba/dc f/ebadc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 
+b -> e/1 
+c -> f/1 
+d -> g/1 
+e -> a/1 b/1 g/1 
+f -> a/1 c/1 g/1 
+g -> d/1 e/1 f/1 
+
+twin_width : 2
+b/a c/ba e/cba ecba/d f/ecbad g/fecbad 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> g/1 
+e -> a/1 b/1 
+f -> a/1 c/1 
+g -> a/1 b/1 c/1 d/1 
+
+twin_width : 2
+b/a c/ba d/cba e/dcba f/edcba g/fedcba 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 g/1 
+c -> f/1 
+d -> g/1 
+e -> a/1 b/1 g/1 
+f -> a/1 c/1 
+g -> a/1 b/1 d/1 e/1 
+
+twin_width : 1
+b/a e/ba eba/d f/c fc/ebad g/fcebad 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 
+c -> f/1 g/1 
+d -> g/1 
+e -> a/1 b/1 g/1 
+f -> a/1 c/1 
+g -> a/1 c/1 d/1 e/1 
+
+twin_width : 2
+b/a d/c e/ba eba/dc f/ebadc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> g/1 
+e -> a/1 b/1 g/1 
+f -> a/1 c/1 
+g -> b/1 c/1 d/1 e/1 
+
+twin_width : 2
+b/a d/c e/ba eba/dc f/ebadc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 
+c -> f/1 
+d -> g/1 
+e -> a/1 b/1 g/1 
+f -> a/1 c/1 g/1 
+g -> a/1 d/1 e/1 f/1 
+
+twin_width : 2
+b/a d/c e/ba eba/dc f/ebadc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 
+b -> e/1 g/1 
+c -> f/1 
+d -> g/1 
+e -> a/1 b/1 g/1 
+f -> a/1 c/1 g/1 
+g -> b/1 d/1 e/1 f/1 
+
+twin_width : 1
+c/a e/b eb/d f/ebd febd/ca g/febdca 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> g/1 
+e -> a/1 b/1 g/1 
+f -> a/1 c/1 
+g -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+b/a e/ba eba/c ebac/d f/ebacd g/febacd 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 g/1 
+c -> f/1 
+d -> g/1 
+e -> a/1 b/1 g/1 
+f -> a/1 c/1 g/1 
+g -> a/1 b/1 d/1 e/1 f/1 
+
+twin_width : 1
+b/a e/ba eba/d f/ebad febad/c g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> g/1 
+e -> a/1 b/1 g/1 
+f -> a/1 c/1 g/1 
+g -> b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 2
+b/a d/c e/ba eba/dc f/ebadc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> g/1 
+e -> a/1 b/1 g/1 
+f -> a/1 c/1 g/1 
+g -> a/1 b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 1
+b/a e/ba eba/c ebac/d f/ebacd g/febacd 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> f/1 
+e -> a/1 b/1 
+f -> c/1 d/1 
+g -> a/1 b/1 c/1 
+
+twin_width : 1
+b/a d/c f/dc g/e fdc/ba ge/fdcba 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> e/1 
+c -> f/1 g/1 
+d -> f/1 
+e -> a/1 b/1 g/1 
+f -> c/1 d/1 
+g -> a/1 c/1 e/1 
+
+twin_width : 1
+b/a e/ba g/eba d/c f/dc geba/fdc 
+---------------------------------------------------------
+
+a -> e/1 
+b -> e/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 g/1 
+f -> c/1 d/1 
+g -> c/1 d/1 e/1 
+
+twin_width : 1
+b/a d/c e/ba g/eba f/dc geba/fdc 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> e/1 
+c -> f/1 
+d -> f/1 
+e -> a/1 b/1 g/1 
+f -> c/1 d/1 g/1 
+g -> a/1 e/1 f/1 
+
+twin_width : 1
+b/a d/c e/ba g/dc f/eba gdc/feba 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 
+f -> c/1 d/1 
+g -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+b/a d/c e/ba g/eba f/dc geba/fdc 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> f/1 
+e -> a/1 b/1 g/1 
+f -> c/1 d/1 
+g -> a/1 b/1 c/1 e/1 
+
+twin_width : 1
+b/a d/c e/ba f/dc fdc/eba g/fdceba 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> e/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 g/1 
+f -> c/1 d/1 
+g -> a/1 c/1 d/1 e/1 
+
+twin_width : 1
+b/a d/c e/ba g/eba f/dc geba/fdc 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> e/1 g/1 
+c -> f/1 
+d -> f/1 
+e -> a/1 b/1 g/1 
+f -> c/1 d/1 g/1 
+g -> a/1 b/1 e/1 f/1 
+
+twin_width : 1
+b/a d/c e/ba f/dc fdc/eba g/fdceba 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> e/1 
+c -> f/1 g/1 
+d -> f/1 
+e -> a/1 b/1 g/1 
+f -> c/1 d/1 g/1 
+g -> a/1 c/1 e/1 f/1 
+
+twin_width : 1
+b/a e/ba g/c gc/d f/eba gcd/feba 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 g/1 
+f -> c/1 d/1 
+g -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+b/a d/c e/ba eba/dc f/ebadc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> f/1 
+e -> a/1 b/1 g/1 
+f -> c/1 d/1 g/1 
+g -> a/1 b/1 c/1 e/1 f/1 
+
+twin_width : 1
+b/a d/c e/ba f/dc fdc/eba g/fdceba 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 g/1 
+f -> c/1 d/1 g/1 
+g -> a/1 b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 0
+b/a d/c e/ba f/dc fdc/eba g/fdceba 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> f/1 
+d -> g/1 
+e -> a/1 b/1 
+f -> a/1 b/1 c/1 
+g -> a/1 b/1 d/1 
+
+twin_width : 1
+b/a f/c fc/e d/ba fce/dba g/fcedba 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> f/1 g/1 
+d -> g/1 
+e -> a/1 b/1 
+f -> a/1 b/1 c/1 
+g -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+b/a c/ba f/e d/cba fe/dcba g/fedcba 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> f/1 
+d -> g/1 
+e -> a/1 b/1 g/1 
+f -> a/1 b/1 c/1 
+g -> a/1 b/1 d/1 e/1 
+
+twin_width : 1
+b/a e/ba eba/d f/c fc/ebad g/fcebad 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 
+c -> f/1 g/1 
+d -> g/1 
+e -> a/1 b/1 g/1 
+f -> a/1 b/1 c/1 
+g -> a/1 c/1 d/1 e/1 
+
+twin_width : 2
+b/a c/ba e/cba ecba/d f/ecbad g/fecbad 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> f/1 
+d -> g/1 
+e -> a/1 b/1 
+f -> a/1 b/1 c/1 g/1 
+g -> a/1 b/1 d/1 f/1 
+
+twin_width : 2
+b/a c/ba e/cba ecba/d f/ecbad g/fecbad 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> f/1 g/1 
+d -> g/1 
+e -> a/1 b/1 g/1 
+f -> a/1 b/1 c/1 
+g -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+b/a c/ba e/cba ecba/d f/ecbad g/fecbad 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> f/1 g/1 
+d -> g/1 
+e -> a/1 b/1 
+f -> a/1 b/1 c/1 g/1 
+g -> a/1 b/1 c/1 d/1 f/1 
+
+twin_width : 1
+b/a c/ba f/cba fcba/d fcbad/e g/fcbade 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> f/1 
+d -> g/1 
+e -> a/1 b/1 g/1 
+f -> a/1 b/1 c/1 g/1 
+g -> a/1 b/1 d/1 e/1 f/1 
+
+twin_width : 1
+b/a e/ba eba/d f/ebad febad/c g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 
+c -> f/1 g/1 
+d -> g/1 
+e -> a/1 b/1 g/1 
+f -> a/1 b/1 c/1 g/1 
+g -> a/1 c/1 d/1 e/1 f/1 
+
+twin_width : 1
+c/a f/e d/ca fe/dca fedca/b g/fedcab 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> f/1 g/1 
+d -> g/1 
+e -> a/1 b/1 g/1 
+f -> a/1 b/1 c/1 g/1 
+g -> a/1 b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 1
+b/a c/ba e/cba ecba/d f/ecbad g/fecbad 
+---------------------------------------------------------
+
+a -> e/1 f/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 
+f -> a/1 c/1 d/1 
+g -> b/1 c/1 d/1 
+
+twin_width : 2
+b/a d/c e/ba eba/dc f/ebadc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> f/1 
+e -> a/1 b/1 g/1 
+f -> a/1 c/1 d/1 
+g -> b/1 c/1 e/1 
+
+twin_width : 2
+b/a d/c e/ba eba/dc f/ebadc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 
+b -> e/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 g/1 
+f -> a/1 c/1 d/1 
+g -> c/1 d/1 e/1 
+
+twin_width : 2
+b/a d/c e/ba eba/dc f/ebadc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 
+f -> a/1 c/1 d/1 
+g -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+b/a d/c g/f e/ba eba/dc gf/ebadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> f/1 
+e -> a/1 b/1 g/1 
+f -> a/1 c/1 d/1 
+g -> a/1 b/1 c/1 e/1 
+
+twin_width : 1
+b/a e/ba eba/c f/d fd/ebac g/fdebac 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 g/1 
+f -> a/1 c/1 d/1 
+g -> a/1 c/1 d/1 e/1 
+
+twin_width : 2
+b/a d/c e/ba eba/dc f/ebadc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 g/1 
+f -> a/1 c/1 d/1 
+g -> b/1 c/1 d/1 e/1 
+
+twin_width : 2
+b/a d/c e/ba eba/dc f/ebadc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> f/1 
+e -> a/1 b/1 
+f -> a/1 c/1 d/1 g/1 
+g -> a/1 b/1 c/1 f/1 
+
+twin_width : 2
+b/a c/ba e/cba ecba/d f/ecbad g/fecbad 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 
+f -> a/1 c/1 d/1 g/1 
+g -> a/1 c/1 d/1 f/1 
+
+twin_width : 1
+c/a d/ca e/b f/dca fdca/eb g/fdcaeb 
+---------------------------------------------------------
+
+a -> e/1 f/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 
+f -> a/1 c/1 d/1 g/1 
+g -> b/1 c/1 d/1 f/1 
+
+twin_width : 2
+b/a d/c e/ba eba/dc f/ebadc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 g/1 
+c -> f/1 
+d -> f/1 
+e -> a/1 b/1 g/1 
+f -> a/1 c/1 d/1 g/1 
+g -> a/1 b/1 e/1 f/1 
+
+twin_width : 1
+b/a d/c e/ba f/eba feba/dc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 g/1 
+f -> a/1 c/1 d/1 
+g -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+b/a d/c e/ba eba/dc f/ebadc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 
+f -> a/1 c/1 d/1 g/1 
+g -> a/1 b/1 c/1 d/1 f/1 
+
+twin_width : 1
+b/a d/c f/dc fdc/ba fdcba/e g/fdcbae 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> f/1 
+e -> a/1 b/1 g/1 
+f -> a/1 c/1 d/1 g/1 
+g -> a/1 b/1 c/1 e/1 f/1 
+
+twin_width : 1
+b/a e/ba eba/c f/ebac febac/d g/febacd 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 g/1 
+f -> a/1 c/1 d/1 g/1 
+g -> a/1 c/1 d/1 e/1 f/1 
+
+twin_width : 1
+c/a d/ca f/dca fdca/e fdcae/b g/fdcaeb 
+---------------------------------------------------------
+
+a -> e/1 f/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 g/1 
+f -> a/1 c/1 d/1 g/1 
+g -> b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 2
+b/a d/c e/ba eba/dc f/ebadc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 g/1 
+f -> a/1 c/1 d/1 g/1 
+g -> a/1 b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 1
+b/a d/c e/ba eba/dc f/ebadc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> g/1 
+d -> g/1 
+e -> a/1 b/1 f/1 
+f -> a/1 b/1 e/1 
+g -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+b/a d/c e/ba f/eba feba/dc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> g/1 
+d -> g/1 
+e -> a/1 b/1 f/1 g/1 
+f -> a/1 b/1 e/1 
+g -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+b/a d/c e/ba eba/dc f/ebadc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 
+c -> g/1 
+d -> g/1 
+e -> a/1 b/1 f/1 g/1 
+f -> a/1 b/1 e/1 g/1 
+g -> a/1 c/1 d/1 e/1 f/1 
+
+twin_width : 1
+b/a d/c e/ba f/eba feba/dc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> g/1 
+d -> g/1 
+e -> a/1 b/1 f/1 g/1 
+f -> a/1 b/1 e/1 g/1 
+g -> a/1 b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 0
+b/a d/c e/ba f/eba feba/dc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> g/1 
+e -> a/1 b/1 f/1 
+f -> a/1 c/1 e/1 
+g -> a/1 b/1 c/1 d/1 
+
+twin_width : 2
+b/a c/ba d/cba e/dcba f/edcba g/fedcba 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 g/1 
+c -> f/1 
+d -> g/1 
+e -> a/1 b/1 f/1 g/1 
+f -> a/1 c/1 e/1 
+g -> a/1 b/1 d/1 e/1 
+
+twin_width : 1
+b/a e/ba eba/d f/c fc/ebad g/fcebad 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 
+c -> f/1 g/1 
+d -> g/1 
+e -> a/1 b/1 f/1 g/1 
+f -> a/1 c/1 e/1 
+g -> a/1 c/1 d/1 e/1 
+
+twin_width : 1
+c/a e/ca f/b eca/d fb/ecad g/fbecad 
+---------------------------------------------------------
+
+a -> e/1 f/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> g/1 
+e -> a/1 b/1 f/1 g/1 
+f -> a/1 c/1 e/1 
+g -> b/1 c/1 d/1 e/1 
+
+twin_width : 2
+b/a d/c e/ba eba/dc f/ebadc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 
+c -> f/1 
+d -> g/1 
+e -> a/1 b/1 f/1 g/1 
+f -> a/1 c/1 e/1 g/1 
+g -> a/1 d/1 e/1 f/1 
+
+twin_width : 2
+b/a d/c e/ba eba/dc f/ebadc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> g/1 
+e -> a/1 b/1 f/1 g/1 
+f -> a/1 c/1 e/1 
+g -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+b/a e/ba eba/c ebac/d f/ebacd g/febacd 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 g/1 
+c -> f/1 
+d -> g/1 
+e -> a/1 b/1 f/1 g/1 
+f -> a/1 c/1 e/1 g/1 
+g -> a/1 b/1 d/1 e/1 f/1 
+
+twin_width : 1
+b/a e/ba eba/d f/ebad febad/c g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> g/1 
+e -> a/1 b/1 f/1 g/1 
+f -> a/1 c/1 e/1 g/1 
+g -> b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 2
+b/a d/c e/ba eba/dc f/ebadc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> g/1 
+e -> a/1 b/1 f/1 g/1 
+f -> a/1 c/1 e/1 g/1 
+g -> a/1 b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 1
+b/a e/ba eba/c ebac/d f/ebacd g/febacd 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 f/1 
+f -> c/1 d/1 e/1 
+g -> a/1 b/1 c/1 d/1 
+
+twin_width : 2
+b/a c/ba d/cba e/dcba f/edcba g/fedcba 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> f/1 
+e -> a/1 b/1 f/1 g/1 
+f -> c/1 d/1 e/1 
+g -> a/1 b/1 c/1 e/1 
+
+twin_width : 1
+b/a d/c g/ba e/dc f/edc gba/fedc 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> e/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 f/1 g/1 
+f -> c/1 d/1 e/1 
+g -> a/1 c/1 d/1 e/1 
+
+twin_width : 1
+b/a d/c g/ba e/dc f/edc gba/fedc 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> e/1 g/1 
+c -> f/1 
+d -> f/1 
+e -> a/1 b/1 f/1 g/1 
+f -> c/1 d/1 e/1 g/1 
+g -> a/1 b/1 e/1 f/1 
+
+twin_width : 1
+b/a d/c e/ba f/eba feba/dc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> e/1 
+c -> f/1 g/1 
+d -> f/1 
+e -> a/1 b/1 f/1 g/1 
+f -> c/1 d/1 e/1 g/1 
+g -> a/1 c/1 e/1 f/1 
+
+twin_width : 2
+b/a d/c e/ba eba/dc f/ebadc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 f/1 g/1 
+f -> c/1 d/1 e/1 
+g -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+b/a d/c e/ba eba/dc f/ebadc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> f/1 
+e -> a/1 b/1 f/1 g/1 
+f -> c/1 d/1 e/1 g/1 
+g -> a/1 b/1 c/1 e/1 f/1 
+
+twin_width : 1
+b/a d/c g/e f/dc fdc/ba ge/fdcba 
+---------------------------------------------------------
+
+a -> e/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 f/1 g/1 
+f -> c/1 d/1 e/1 g/1 
+g -> a/1 b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 1
+b/a d/c e/ba eba/dc f/ebadc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 
+f -> a/1 b/1 c/1 d/1 
+g -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+b/a c/ba d/cba f/e fe/dcba g/fedcba 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 g/1 
+f -> a/1 b/1 c/1 d/1 
+g -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+b/a c/ba d/cba e/dcba f/edcba g/fedcba 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 
+f -> a/1 b/1 c/1 d/1 g/1 
+g -> a/1 b/1 c/1 d/1 f/1 
+
+twin_width : 1
+b/a c/ba d/cba f/dcba fdcba/e g/fdcbae 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 g/1 
+f -> a/1 b/1 c/1 d/1 g/1 
+g -> a/1 b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 1
+b/a c/ba d/cba e/dcba f/edcba g/fedcba 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> f/1 g/1 
+d -> g/1 
+e -> a/1 b/1 f/1 
+f -> a/1 b/1 c/1 e/1 
+g -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+b/a c/ba e/cba f/ecba fecba/d g/fecbad 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> f/1 g/1 
+d -> g/1 
+e -> a/1 b/1 f/1 g/1 
+f -> a/1 b/1 c/1 e/1 
+g -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+b/a c/ba e/cba ecba/d f/ecbad g/fecbad 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> f/1 g/1 
+d -> g/1 
+e -> a/1 b/1 f/1 
+f -> a/1 b/1 c/1 e/1 g/1 
+g -> a/1 b/1 c/1 d/1 f/1 
+
+twin_width : 1
+b/a c/ba e/cba f/ecba fecba/d g/fecbad 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> f/1 
+d -> g/1 
+e -> a/1 b/1 f/1 g/1 
+f -> a/1 b/1 c/1 e/1 g/1 
+g -> a/1 b/1 d/1 e/1 f/1 
+
+twin_width : 1
+b/a e/ba eba/c f/ebac febac/d g/febacd 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> f/1 g/1 
+d -> g/1 
+e -> a/1 b/1 f/1 g/1 
+f -> a/1 b/1 c/1 e/1 g/1 
+g -> a/1 b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 0
+b/a e/ba eba/c f/ebac febac/d g/febacd 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 f/1 
+f -> a/1 c/1 d/1 e/1 
+g -> a/1 b/1 c/1 d/1 
+
+twin_width : 2
+b/a c/ba d/cba e/dcba f/edcba g/fedcba 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 f/1 g/1 
+f -> a/1 c/1 d/1 e/1 
+g -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+b/a d/c e/ba eba/dc f/ebadc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 f/1 
+f -> a/1 c/1 d/1 e/1 g/1 
+g -> a/1 b/1 c/1 d/1 f/1 
+
+twin_width : 1
+b/a d/c f/ba fba/dc fbadc/e g/fbadce 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> f/1 
+e -> a/1 b/1 f/1 g/1 
+f -> a/1 c/1 d/1 e/1 g/1 
+g -> a/1 b/1 c/1 e/1 f/1 
+
+twin_width : 1
+b/a e/ba eba/c f/ebac febac/d g/febacd 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 f/1 g/1 
+f -> a/1 c/1 d/1 e/1 g/1 
+g -> a/1 c/1 d/1 e/1 f/1 
+
+twin_width : 1
+c/a d/ca e/dca f/edca fedca/b g/fedcab 
+---------------------------------------------------------
+
+a -> e/1 f/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 f/1 g/1 
+f -> a/1 c/1 d/1 e/1 g/1 
+g -> b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 2
+b/a d/c e/ba eba/dc f/ebadc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 f/1 g/1 
+f -> a/1 c/1 d/1 e/1 g/1 
+g -> a/1 b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 1
+b/a d/c e/ba eba/dc f/ebadc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 f/1 g/1 
+f -> a/1 b/1 c/1 d/1 e/1 
+g -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 0
+b/a d/c e/ba eba/dc g/f gf/ebadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 f/1 g/1 
+f -> a/1 b/1 c/1 d/1 e/1 g/1 
+g -> a/1 b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 0
+b/a d/c e/ba eba/dc f/ebadc g/febadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> e/1 f/1 g/1 
+d -> g/1 
+e -> a/1 b/1 c/1 
+f -> a/1 b/1 c/1 
+g -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+b/a c/ba f/e d/cba fe/dcba g/fedcba 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 
+c -> e/1 f/1 
+d -> g/1 
+e -> a/1 b/1 c/1 g/1 
+f -> a/1 b/1 c/1 g/1 
+g -> a/1 d/1 e/1 f/1 
+
+twin_width : 1
+b/a c/ba f/e fe/cba fecba/d g/fecbad 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> e/1 f/1 g/1 
+d -> g/1 
+e -> a/1 b/1 c/1 g/1 
+f -> a/1 b/1 c/1 
+g -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+b/a c/ba e/cba ecba/d f/ecbad g/fecbad 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> e/1 f/1 
+d -> g/1 
+e -> a/1 b/1 c/1 g/1 
+f -> a/1 b/1 c/1 g/1 
+g -> a/1 b/1 d/1 e/1 f/1 
+
+twin_width : 1
+b/a c/ba f/e fe/cba fecba/d g/fecbad 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> e/1 f/1 g/1 
+d -> g/1 
+e -> a/1 b/1 c/1 g/1 
+f -> a/1 b/1 c/1 g/1 
+g -> a/1 b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 0
+b/a c/ba f/e fe/cba fecba/d g/fecbad 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> e/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 c/1 
+f -> a/1 b/1 d/1 
+g -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+b/a c/ba g/f e/cba ecba/d gf/ecbad 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> e/1 g/1 
+d -> f/1 
+e -> a/1 b/1 c/1 g/1 
+f -> a/1 b/1 d/1 
+g -> a/1 b/1 c/1 e/1 
+
+twin_width : 1
+b/a c/ba e/cba f/d fd/ecba g/fdecba 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> e/1 
+d -> f/1 g/1 
+e -> a/1 b/1 c/1 g/1 
+f -> a/1 b/1 d/1 
+g -> a/1 b/1 d/1 e/1 
+
+twin_width : 2
+b/a c/ba e/cba ecba/d f/ecbad g/fecbad 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 
+c -> e/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 c/1 g/1 
+f -> a/1 b/1 d/1 
+g -> a/1 c/1 d/1 e/1 
+
+twin_width : 2
+b/a c/ba e/cba ecba/d f/ecbad g/fecbad 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> e/1 
+d -> f/1 
+e -> a/1 b/1 c/1 g/1 
+f -> a/1 b/1 d/1 g/1 
+g -> a/1 b/1 e/1 f/1 
+
+twin_width : 1
+b/a g/ba e/c gba/d f/ec gbad/fec 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 
+c -> e/1 g/1 
+d -> f/1 
+e -> a/1 b/1 c/1 g/1 
+f -> a/1 b/1 d/1 g/1 
+g -> a/1 c/1 e/1 f/1 
+
+twin_width : 1
+b/a g/ba e/c gba/d f/ec gbad/fec 
+---------------------------------------------------------
+
+a -> e/1 f/1 
+b -> e/1 f/1 
+c -> e/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 c/1 g/1 
+f -> a/1 b/1 d/1 g/1 
+g -> c/1 d/1 e/1 f/1 
+
+twin_width : 2
+b/a c/ba e/cba ecba/d f/ecbad g/fecbad 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> e/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 c/1 g/1 
+f -> a/1 b/1 d/1 
+g -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+b/a c/ba e/cba ecba/d f/ecbad g/fecbad 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> e/1 g/1 
+d -> f/1 
+e -> a/1 b/1 c/1 g/1 
+f -> a/1 b/1 d/1 g/1 
+g -> a/1 b/1 c/1 e/1 f/1 
+
+twin_width : 1
+b/a c/ba e/cba f/ecba fecba/d g/fecbad 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 
+c -> e/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 c/1 g/1 
+f -> a/1 b/1 d/1 g/1 
+g -> a/1 c/1 d/1 e/1 f/1 
+
+twin_width : 2
+b/a c/ba e/cba ecba/d f/ecbad g/fecbad 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> e/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 c/1 g/1 
+f -> a/1 b/1 d/1 g/1 
+g -> a/1 b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 1
+b/a c/ba e/cba ecba/d f/ecbad g/fecbad 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> e/1 f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 c/1 
+f -> a/1 b/1 c/1 d/1 
+g -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+b/a c/ba d/cba f/e fe/dcba g/fedcba 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> e/1 f/1 g/1 
+d -> f/1 
+e -> a/1 b/1 c/1 g/1 
+f -> a/1 b/1 c/1 d/1 
+g -> a/1 b/1 c/1 e/1 
+
+twin_width : 1
+b/a c/ba e/cba f/d fd/ecba g/fdecba 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> e/1 f/1 
+d -> f/1 g/1 
+e -> a/1 b/1 c/1 g/1 
+f -> a/1 b/1 c/1 d/1 
+g -> a/1 b/1 d/1 e/1 
+
+twin_width : 2
+b/a c/ba d/cba e/dcba f/edcba g/fedcba 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> e/1 f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 c/1 g/1 
+f -> a/1 b/1 c/1 d/1 
+g -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+b/a c/ba d/cba e/dcba f/edcba g/fedcba 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> e/1 f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 c/1 
+f -> a/1 b/1 c/1 d/1 g/1 
+g -> a/1 b/1 c/1 d/1 f/1 
+
+twin_width : 1
+b/a c/ba d/cba f/dcba fdcba/e g/fdcbae 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> e/1 f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 c/1 g/1 
+f -> a/1 b/1 c/1 d/1 g/1 
+g -> a/1 b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 1
+b/a c/ba d/cba e/dcba f/edcba g/fedcba 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> e/1 f/1 g/1 
+d -> g/1 
+e -> a/1 b/1 c/1 f/1 g/1 
+f -> a/1 b/1 c/1 e/1 
+g -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+b/a c/ba e/cba ecba/d f/ecbad g/fecbad 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> e/1 f/1 
+d -> g/1 
+e -> a/1 b/1 c/1 f/1 g/1 
+f -> a/1 b/1 c/1 e/1 g/1 
+g -> a/1 b/1 d/1 e/1 f/1 
+
+twin_width : 1
+b/a c/ba e/cba f/ecba fecba/d g/fecbad 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> e/1 f/1 g/1 
+d -> g/1 
+e -> a/1 b/1 c/1 f/1 g/1 
+f -> a/1 b/1 c/1 e/1 g/1 
+g -> a/1 b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 0
+b/a c/ba e/cba f/ecba fecba/d g/fecbad 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> e/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 c/1 f/1 g/1 
+f -> a/1 b/1 d/1 e/1 
+g -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+b/a c/ba e/cba ecba/d f/ecbad g/fecbad 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 
+c -> e/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 c/1 f/1 g/1 
+f -> a/1 b/1 d/1 e/1 g/1 
+g -> a/1 c/1 d/1 e/1 f/1 
+
+twin_width : 2
+b/a c/ba e/cba ecba/d f/ecbad g/fecbad 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> e/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 c/1 f/1 g/1 
+f -> a/1 b/1 d/1 e/1 g/1 
+g -> a/1 b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 1
+b/a c/ba e/cba ecba/d f/ecbad g/fecbad 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> e/1 f/1 g/1 
+d -> f/1 g/1 
+e -> a/1 b/1 c/1 f/1 g/1 
+f -> a/1 b/1 c/1 d/1 e/1 g/1 
+g -> a/1 b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 0
+b/a c/ba e/cba ecba/d f/ecbad g/fecbad 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> e/1 f/1 g/1 
+d -> e/1 f/1 g/1 
+e -> a/1 b/1 c/1 d/1 
+f -> a/1 b/1 c/1 d/1 
+g -> a/1 b/1 c/1 d/1 
+
+twin_width : 0
+b/a c/ba d/cba f/e g/fe gfe/dcba 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> e/1 f/1 g/1 
+d -> e/1 f/1 g/1 
+e -> a/1 b/1 c/1 d/1 g/1 
+f -> a/1 b/1 c/1 d/1 
+g -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 0
+b/a c/ba d/cba g/e ge/f gef/dcba 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> e/1 f/1 g/1 
+d -> e/1 f/1 
+e -> a/1 b/1 c/1 d/1 g/1 
+f -> a/1 b/1 c/1 d/1 g/1 
+g -> a/1 b/1 c/1 e/1 f/1 
+
+twin_width : 0
+b/a c/ba f/e g/cba gcba/d gcbad/fe 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> e/1 f/1 g/1 
+d -> e/1 f/1 g/1 
+e -> a/1 b/1 c/1 d/1 g/1 
+f -> a/1 b/1 c/1 d/1 g/1 
+g -> a/1 b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 0
+b/a c/ba d/cba f/e fe/dcba g/fedcba 
+---------------------------------------------------------
+
+a -> e/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> e/1 f/1 g/1 
+d -> e/1 f/1 g/1 
+e -> a/1 b/1 c/1 d/1 f/1 g/1 
+f -> a/1 b/1 c/1 d/1 e/1 g/1 
+g -> a/1 b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 0
+b/a c/ba d/cba e/dcba f/edcba g/fedcba 
+---------------------------------------------------------
+
+a -> d/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> a/1 
+e -> b/1 
+f -> c/1 
+g -> a/1 b/1 c/1 
+
+twin_width : 2
+b/a d/ba e/dba edba/c f/edbac g/fedbac 
+---------------------------------------------------------
+
+a -> d/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> a/1 g/1 
+e -> b/1 
+f -> c/1 
+g -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+d/a da/b e/dab g/edab f/c gedab/fc 
+---------------------------------------------------------
+
+a -> d/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> a/1 g/1 
+e -> b/1 g/1 
+f -> c/1 
+g -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+d/a da/b e/dab edab/c f/edabc g/fedabc 
+---------------------------------------------------------
+
+a -> d/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> a/1 g/1 
+e -> b/1 g/1 
+f -> c/1 g/1 
+g -> a/1 b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 0
+d/a e/b eb/da f/c fc/ebda g/fcebda 
+---------------------------------------------------------
+
+a -> d/1 f/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> a/1 
+e -> b/1 
+f -> a/1 c/1 
+g -> b/1 c/1 
+
+twin_width : 1
+d/a f/da fda/c g/e fdac/b ge/fdacb 
+---------------------------------------------------------
+
+a -> d/1 f/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> a/1 
+e -> b/1 
+f -> a/1 c/1 
+g -> a/1 b/1 c/1 
+
+twin_width : 1
+c/a f/d fd/ca g/e fdca/b ge/fdcab 
+---------------------------------------------------------
+
+a -> d/1 f/1 g/1 
+b -> e/1 g/1 
+c -> f/1 
+d -> a/1 g/1 
+e -> b/1 
+f -> a/1 c/1 
+g -> a/1 b/1 d/1 
+
+twin_width : 1
+d/a f/c fc/da g/e fcda/b ge/fcdab 
+---------------------------------------------------------
+
+a -> d/1 f/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> a/1 g/1 
+e -> b/1 
+f -> a/1 c/1 
+g -> b/1 c/1 d/1 
+
+twin_width : 2
+c/a d/b e/db edb/ca f/edbca g/fedbca 
+---------------------------------------------------------
+
+a -> d/1 f/1 g/1 
+b -> e/1 g/1 
+c -> f/1 
+d -> a/1 
+e -> b/1 g/1 
+f -> a/1 c/1 
+g -> a/1 b/1 e/1 
+
+twin_width : 1
+e/b f/c fc/d eb/a fcd/eba g/fcdeba 
+---------------------------------------------------------
+
+a -> d/1 f/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> a/1 
+e -> b/1 g/1 
+f -> a/1 c/1 
+g -> b/1 c/1 e/1 
+
+twin_width : 1
+d/a e/b f/da eb/c fda/ebc g/fdaebc 
+---------------------------------------------------------
+
+a -> d/1 f/1 g/1 
+b -> e/1 g/1 
+c -> f/1 
+d -> a/1 
+e -> b/1 
+f -> a/1 c/1 g/1 
+g -> a/1 b/1 f/1 
+
+twin_width : 2
+c/a d/ca e/b eb/dca f/ebdca g/febdca 
+---------------------------------------------------------
+
+a -> d/1 f/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> a/1 g/1 
+e -> b/1 
+f -> a/1 c/1 
+g -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+c/a d/ca f/dca g/e fdca/b ge/fdcab 
+---------------------------------------------------------
+
+a -> d/1 f/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> a/1 
+e -> b/1 g/1 
+f -> a/1 c/1 
+g -> a/1 b/1 c/1 e/1 
+
+twin_width : 1
+c/a e/b f/d eb/ca fd/ebca g/fdebca 
+---------------------------------------------------------
+
+a -> d/1 f/1 g/1 
+b -> e/1 g/1 
+c -> f/1 
+d -> a/1 g/1 
+e -> b/1 g/1 
+f -> a/1 c/1 
+g -> a/1 b/1 d/1 e/1 
+
+twin_width : 1
+d/a e/b eb/da f/c fc/ebda g/fcebda 
+---------------------------------------------------------
+
+a -> d/1 f/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> a/1 g/1 
+e -> b/1 g/1 
+f -> a/1 c/1 
+g -> b/1 c/1 d/1 e/1 
+
+twin_width : 2
+c/a d/b e/db edb/ca f/edbca g/fedbca 
+---------------------------------------------------------
+
+a -> d/1 f/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> a/1 
+e -> b/1 
+f -> a/1 c/1 g/1 
+g -> a/1 b/1 c/1 f/1 
+
+twin_width : 1
+c/a f/ca fca/d g/e fcad/b ge/fcadb 
+---------------------------------------------------------
+
+a -> d/1 f/1 g/1 
+b -> e/1 g/1 
+c -> f/1 
+d -> a/1 
+e -> b/1 g/1 
+f -> a/1 c/1 g/1 
+g -> a/1 b/1 e/1 f/1 
+
+twin_width : 2
+c/a d/ca e/b eb/dca f/ebdca g/febdca 
+---------------------------------------------------------
+
+a -> d/1 f/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> a/1 g/1 
+e -> b/1 g/1 
+f -> a/1 c/1 
+g -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+c/a d/ca e/b eb/dca f/ebdca g/febdca 
+---------------------------------------------------------
+
+a -> d/1 f/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> a/1 g/1 
+e -> b/1 
+f -> a/1 c/1 g/1 
+g -> a/1 b/1 c/1 d/1 f/1 
+
+twin_width : 1
+c/a d/ca e/b f/dca fdca/eb g/fdcaeb 
+---------------------------------------------------------
+
+a -> d/1 f/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> a/1 
+e -> b/1 g/1 
+f -> a/1 c/1 g/1 
+g -> a/1 b/1 c/1 e/1 f/1 
+
+twin_width : 1
+c/a e/b f/ca fca/d fcad/eb g/fcadeb 
+---------------------------------------------------------
+
+a -> d/1 f/1 g/1 
+b -> e/1 g/1 
+c -> f/1 g/1 
+d -> a/1 g/1 
+e -> b/1 g/1 
+f -> a/1 c/1 g/1 
+g -> a/1 b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 1
+c/a d/ca e/b eb/dca f/ebdca g/febdca 
+---------------------------------------------------------
+
+a -> d/1 f/1 g/1 
+b -> e/1 g/1 
+c -> g/1 
+d -> a/1 f/1 g/1 
+e -> b/1 
+f -> a/1 d/1 
+g -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+c/b d/a e/cb g/ecb f/da gecb/fda 
+---------------------------------------------------------
+
+a -> d/1 f/1 g/1 
+b -> e/1 g/1 
+c -> g/1 
+d -> a/1 f/1 
+e -> b/1 g/1 
+f -> a/1 d/1 
+g -> a/1 b/1 c/1 e/1 
+
+twin_width : 1
+c/b d/a e/cb f/da fda/ecb g/fdaecb 
+---------------------------------------------------------
+
+a -> d/1 f/1 g/1 
+b -> e/1 g/1 
+c -> g/1 
+d -> a/1 f/1 g/1 
+e -> b/1 g/1 
+f -> a/1 d/1 
+g -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+c/b d/a e/cb ecb/da f/ecbda g/fecbda 
+---------------------------------------------------------
+
+a -> d/1 f/1 g/1 
+b -> e/1 g/1 
+c -> g/1 
+d -> a/1 f/1 g/1 
+e -> b/1 
+f -> a/1 d/1 g/1 
+g -> a/1 b/1 c/1 d/1 f/1 
+
+twin_width : 1
+c/b d/a e/cb f/da fda/ecb g/fdaecb 
+---------------------------------------------------------
+
+a -> d/1 f/1 g/1 
+b -> e/1 g/1 
+c -> g/1 
+d -> a/1 f/1 g/1 
+e -> b/1 g/1 
+f -> a/1 d/1 g/1 
+g -> a/1 b/1 c/1 d/1 e/1 f/1 
+
+twin_width : 0
+d/a e/b eb/c f/da fda/ebc g/fdaebc 
+---------------------------------------------------------
+
+a -> d/1 f/1 
+b -> e/1 f/1 
+c -> f/1 g/1 
+d -> a/1 g/1 
+e -> b/1 g/1 
+f -> a/1 b/1 c/1 
+g -> c/1 d/1 e/1 
+
+twin_width : 2
+b/a d/c e/dc edc/ba f/edcba g/fedcba 
+---------------------------------------------------------
+
+a -> d/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> f/1 g/1 
+d -> a/1 g/1 
+e -> b/1 
+f -> a/1 b/1 c/1 
+g -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+c/a d/ca f/e dca/b fe/dcab g/fedcab 
+---------------------------------------------------------
+
+a -> d/1 f/1 g/1 
+b -> e/1 f/1 g/1 
+c -> f/1 
+d -> a/1 g/1 
+e -> b/1 g/1 
+f -> a/1 b/1 c/1 
+g -> a/1 b/1 d/1 e/1 
+
+twin_width : 2
+b/a d/ba e/dba edba/c f/edbac g/fedbac 
+---------------------------------------------------------
+
+a -> d/1 f/1 g/1 
+b -> e/1 f/1 
+c -> f/1 g/1 
+d -> a/1 g/1 
+e -> b/1 g/1 
+f -> a/1 b/1 c/1 
+g -> a/1 c/1 d/1 e/1 
+

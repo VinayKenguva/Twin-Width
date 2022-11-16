@@ -1,0 +1,16 @@
+a -> c/1 
+b -> c/1 
+c -> a/1 b/1 
+
+twin_width : 0
+Contraction Sequence : b/a c/ba 
+---------------------------------------------------------
+
+a -> b/1 c/1 
+b -> a/1 c/1 
+c -> a/1 b/1 
+
+twin_width : 0
+Contraction Sequence : b/a c/ba 
+---------------------------------------------------------
+

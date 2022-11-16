@@ -1,0 +1,1232 @@
+a -> f/1 
+b -> f/1 
+c -> f/1 
+d -> f/1 
+e -> f/1 
+f -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 0
+Contraction Sequence : b/a c/ba d/cba e/dcba f/edcba 
+---------------------------------------------------------
+
+a -> e/1 f/1 
+b -> f/1 
+c -> f/1 
+d -> f/1 
+e -> a/1 
+f -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+Contraction Sequence : b/a c/ba d/cba e/dcba f/edcba 
+---------------------------------------------------------
+
+a -> e/1 f/1 
+b -> f/1 
+c -> f/1 
+d -> f/1 
+e -> a/1 f/1 
+f -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 0
+Contraction Sequence : c/b d/cb e/a ea/dcb f/eadcb 
+---------------------------------------------------------
+
+a -> e/1 f/1 
+b -> e/1 
+c -> f/1 
+d -> f/1 
+e -> a/1 b/1 
+f -> a/1 c/1 d/1 
+
+twin_width : 1
+Contraction Sequence : b/a d/c e/ba eba/dc f/ebadc 
+---------------------------------------------------------
+
+a -> e/1 
+b -> e/1 
+c -> f/1 
+d -> f/1 
+e -> a/1 b/1 f/1 
+f -> c/1 d/1 e/1 
+
+twin_width : 1
+Contraction Sequence : b/a d/c e/ba eba/dc f/ebadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 
+b -> e/1 f/1 
+c -> f/1 
+d -> f/1 
+e -> a/1 b/1 
+f -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+Contraction Sequence : b/a c/ba d/cba e/dcba f/edcba 
+---------------------------------------------------------
+
+a -> e/1 f/1 
+b -> e/1 
+c -> f/1 
+d -> f/1 
+e -> a/1 b/1 f/1 
+f -> a/1 c/1 d/1 e/1 
+
+twin_width : 1
+Contraction Sequence : b/a d/c e/ba eba/dc f/ebadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 
+b -> e/1 f/1 
+c -> f/1 
+d -> f/1 
+e -> a/1 b/1 f/1 
+f -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 0
+Contraction Sequence : b/a d/c e/ba eba/dc f/ebadc 
+---------------------------------------------------------
+
+a -> e/1 f/1 
+b -> e/1 f/1 
+c -> e/1 
+d -> f/1 
+e -> a/1 b/1 c/1 
+f -> a/1 b/1 d/1 
+
+twin_width : 1
+Contraction Sequence : b/a c/ba e/cba ecba/d f/ecbad 
+---------------------------------------------------------
+
+a -> e/1 f/1 
+b -> e/1 f/1 
+c -> e/1 f/1 
+d -> f/1 
+e -> a/1 b/1 c/1 
+f -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+Contraction Sequence : b/a c/ba d/cba e/dcba f/edcba 
+---------------------------------------------------------
+
+a -> e/1 f/1 
+b -> e/1 f/1 
+c -> e/1 
+d -> f/1 
+e -> a/1 b/1 c/1 f/1 
+f -> a/1 b/1 d/1 e/1 
+
+twin_width : 1
+Contraction Sequence : b/a c/ba e/cba ecba/d f/ecbad 
+---------------------------------------------------------
+
+a -> e/1 f/1 
+b -> e/1 f/1 
+c -> e/1 f/1 
+d -> f/1 
+e -> a/1 b/1 c/1 f/1 
+f -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 0
+Contraction Sequence : b/a c/ba e/cba ecba/d f/ecbad 
+---------------------------------------------------------
+
+a -> e/1 f/1 
+b -> e/1 f/1 
+c -> e/1 f/1 
+d -> e/1 f/1 
+e -> a/1 b/1 c/1 d/1 
+f -> a/1 b/1 c/1 d/1 
+
+twin_width : 0
+Contraction Sequence : b/a c/ba d/cba f/e fe/dcba 
+---------------------------------------------------------
+
+a -> e/1 f/1 
+b -> e/1 f/1 
+c -> e/1 f/1 
+d -> e/1 f/1 
+e -> a/1 b/1 c/1 d/1 f/1 
+f -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 0
+Contraction Sequence : b/a c/ba d/cba e/dcba f/edcba 
+---------------------------------------------------------
+
+a -> d/1 f/1 
+b -> e/1 f/1 
+c -> f/1 
+d -> a/1 
+e -> b/1 
+f -> a/1 b/1 c/1 
+
+twin_width : 1
+Contraction Sequence : c/a d/ca f/dca e/b fdca/eb 
+---------------------------------------------------------
+
+a -> d/1 f/1 
+b -> e/1 f/1 
+c -> f/1 
+d -> a/1 f/1 
+e -> b/1 
+f -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+Contraction Sequence : c/a d/ca dca/b e/dcab f/edcab 
+---------------------------------------------------------
+
+a -> d/1 f/1 
+b -> e/1 f/1 
+c -> f/1 
+d -> a/1 f/1 
+e -> b/1 f/1 
+f -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 0
+Contraction Sequence : d/a da/c e/b eb/dac f/ebdac 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> e/1 f/1 
+c -> f/1 
+d -> a/1 
+e -> a/1 b/1 
+f -> a/1 b/1 c/1 
+
+twin_width : 1
+Contraction Sequence : b/a e/d c/ba ed/cba f/edcba 
+---------------------------------------------------------
+
+a -> d/1 e/1 
+b -> e/1 f/1 
+c -> f/1 
+d -> a/1 f/1 
+e -> a/1 b/1 
+f -> b/1 c/1 d/1 
+
+twin_width : 2
+Contraction Sequence : b/a d/ba dba/c e/dbac f/edbac 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> e/1 
+c -> f/1 
+d -> a/1 
+e -> a/1 b/1 f/1 
+f -> a/1 c/1 e/1 
+
+twin_width : 2
+Contraction Sequence : b/a d/ba dba/c e/dbac f/edbac 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> e/1 f/1 
+c -> f/1 
+d -> a/1 f/1 
+e -> a/1 b/1 
+f -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+Contraction Sequence : b/a d/ba dba/c e/dbac f/edbac 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> e/1 f/1 
+c -> f/1 
+d -> a/1 
+e -> a/1 b/1 f/1 
+f -> a/1 b/1 c/1 e/1 
+
+twin_width : 1
+Contraction Sequence : b/a e/ba eba/c ebac/d f/ebacd 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> e/1 f/1 
+c -> f/1 
+d -> a/1 f/1 
+e -> a/1 b/1 f/1 
+f -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+Contraction Sequence : b/a d/ba dba/c e/dbac f/edbac 
+---------------------------------------------------------
+
+a -> d/1 f/1 
+b -> e/1 f/1 
+c -> e/1 
+d -> a/1 
+e -> b/1 c/1 
+f -> a/1 b/1 
+
+twin_width : 1
+Contraction Sequence : c/b e/cb f/d ecb/a fd/ecba 
+---------------------------------------------------------
+
+a -> d/1 f/1 
+b -> e/1 f/1 
+c -> e/1 f/1 
+d -> a/1 
+e -> b/1 c/1 
+f -> a/1 b/1 c/1 
+
+twin_width : 1
+Contraction Sequence : c/b d/a f/da e/cb fda/ecb 
+---------------------------------------------------------
+
+a -> d/1 f/1 
+b -> e/1 f/1 
+c -> e/1 
+d -> a/1 f/1 
+e -> b/1 c/1 
+f -> a/1 b/1 d/1 
+
+twin_width : 1
+Contraction Sequence : c/b d/a e/cb ecb/da f/ecbda 
+---------------------------------------------------------
+
+a -> d/1 f/1 
+b -> e/1 f/1 
+c -> e/1 
+d -> a/1 
+e -> b/1 c/1 f/1 
+f -> a/1 b/1 e/1 
+
+twin_width : 1
+Contraction Sequence : c/b e/cb f/d ecb/a fd/ecba 
+---------------------------------------------------------
+
+a -> d/1 f/1 
+b -> e/1 
+c -> e/1 
+d -> a/1 f/1 
+e -> b/1 c/1 f/1 
+f -> a/1 d/1 e/1 
+
+twin_width : 1
+Contraction Sequence : c/b d/a e/cb ecb/da f/ecbda 
+---------------------------------------------------------
+
+a -> d/1 f/1 
+b -> e/1 f/1 
+c -> e/1 f/1 
+d -> a/1 f/1 
+e -> b/1 c/1 
+f -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+Contraction Sequence : c/b d/a da/cb e/dacb f/edacb 
+---------------------------------------------------------
+
+a -> d/1 f/1 
+b -> e/1 f/1 
+c -> e/1 f/1 
+d -> a/1 
+e -> b/1 c/1 f/1 
+f -> a/1 b/1 c/1 e/1 
+
+twin_width : 1
+Contraction Sequence : c/b d/a e/cb ecb/da f/ecbda 
+---------------------------------------------------------
+
+a -> d/1 f/1 
+b -> e/1 f/1 
+c -> e/1 
+d -> a/1 f/1 
+e -> b/1 c/1 f/1 
+f -> a/1 b/1 d/1 e/1 
+
+twin_width : 1
+Contraction Sequence : c/b d/a e/cb ecb/da f/ecbda 
+---------------------------------------------------------
+
+a -> d/1 f/1 
+b -> e/1 f/1 
+c -> e/1 f/1 
+d -> a/1 f/1 
+e -> b/1 c/1 f/1 
+f -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 0
+Contraction Sequence : c/b d/a e/cb ecb/da f/ecbda 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> f/1 
+c -> f/1 
+d -> a/1 e/1 f/1 
+e -> a/1 d/1 
+f -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+Contraction Sequence : c/b d/a da/cb e/dacb f/edacb 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> f/1 
+c -> f/1 
+d -> a/1 e/1 f/1 
+e -> a/1 d/1 f/1 
+f -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 0
+Contraction Sequence : c/b d/a e/da eda/cb f/edacb 
+---------------------------------------------------------
+
+a -> d/1 e/1 
+b -> e/1 f/1 
+c -> e/1 f/1 
+d -> a/1 f/1 
+e -> a/1 b/1 c/1 
+f -> b/1 c/1 d/1 
+
+twin_width : 2
+Contraction Sequence : b/a c/ba d/cba e/dcba f/edcba 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> e/1 f/1 
+c -> e/1 f/1 
+d -> a/1 f/1 
+e -> a/1 b/1 c/1 
+f -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+Contraction Sequence : b/a c/ba d/cba e/dcba f/edcba 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> e/1 f/1 
+c -> e/1 f/1 
+d -> a/1 
+e -> a/1 b/1 c/1 f/1 
+f -> a/1 b/1 c/1 e/1 
+
+twin_width : 1
+Contraction Sequence : b/a c/ba e/cba ecba/d f/ecbad 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> e/1 f/1 
+c -> e/1 
+d -> a/1 f/1 
+e -> a/1 b/1 c/1 f/1 
+f -> a/1 b/1 d/1 e/1 
+
+twin_width : 1
+Contraction Sequence : b/a d/ba e/dba edba/c f/edbac 
+---------------------------------------------------------
+
+a -> d/1 e/1 
+b -> e/1 f/1 
+c -> e/1 f/1 
+d -> a/1 f/1 
+e -> a/1 b/1 c/1 f/1 
+f -> b/1 c/1 d/1 e/1 
+
+twin_width : 1
+Contraction Sequence : c/b e/cb ecb/d ecbd/a f/ecbda 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> e/1 f/1 
+c -> e/1 f/1 
+d -> a/1 f/1 
+e -> a/1 b/1 c/1 f/1 
+f -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+Contraction Sequence : b/a c/ba d/cba e/dcba f/edcba 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> e/1 f/1 
+c -> f/1 
+d -> a/1 e/1 f/1 
+e -> a/1 b/1 d/1 
+f -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+Contraction Sequence : b/a d/ba dba/c e/dbac f/edbac 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> e/1 
+c -> f/1 
+d -> a/1 e/1 f/1 
+e -> a/1 b/1 d/1 f/1 
+f -> a/1 c/1 d/1 e/1 
+
+twin_width : 1
+Contraction Sequence : d/a da/b e/dab edab/c f/edabc 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> e/1 f/1 
+c -> f/1 
+d -> a/1 e/1 f/1 
+e -> a/1 b/1 d/1 f/1 
+f -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 0
+Contraction Sequence : d/a da/b e/dab edab/c f/edabc 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> e/1 f/1 
+c -> e/1 f/1 
+d -> a/1 e/1 f/1 
+e -> a/1 b/1 c/1 d/1 
+f -> a/1 b/1 c/1 d/1 
+
+twin_width : 0
+Contraction Sequence : c/b d/a da/cb f/e fe/dacb 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> e/1 f/1 
+c -> e/1 f/1 
+d -> a/1 e/1 f/1 
+e -> a/1 b/1 c/1 d/1 f/1 
+f -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 0
+Contraction Sequence : c/b d/a da/cb e/dacb f/edacb 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> d/1 e/1 f/1 
+c -> f/1 
+d -> a/1 b/1 
+e -> a/1 b/1 
+f -> a/1 b/1 c/1 
+
+twin_width : 1
+Contraction Sequence : b/a e/d c/ba ed/cba f/edcba 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> d/1 e/1 f/1 
+c -> f/1 
+d -> a/1 b/1 f/1 
+e -> a/1 b/1 
+f -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+Contraction Sequence : b/a d/ba dba/c e/dbac f/edbac 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> d/1 e/1 f/1 
+c -> f/1 
+d -> a/1 b/1 f/1 
+e -> a/1 b/1 f/1 
+f -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 0
+Contraction Sequence : b/a e/d ed/ba edba/c f/edbac 
+---------------------------------------------------------
+
+a -> d/1 e/1 
+b -> d/1 f/1 
+c -> e/1 f/1 
+d -> a/1 b/1 
+e -> a/1 c/1 
+f -> b/1 c/1 
+
+twin_width : 2
+Contraction Sequence : b/a d/ba dba/c e/dbac f/edbac 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> d/1 f/1 
+c -> e/1 f/1 
+d -> a/1 b/1 
+e -> a/1 c/1 
+f -> a/1 b/1 c/1 
+
+twin_width : 1
+Contraction Sequence : b/a f/e d/ba dba/c fe/dbac 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> d/1 
+c -> e/1 f/1 
+d -> a/1 b/1 f/1 
+e -> a/1 c/1 
+f -> a/1 c/1 d/1 
+
+twin_width : 2
+Contraction Sequence : b/a d/ba dba/c e/dbac f/edbac 
+---------------------------------------------------------
+
+a -> d/1 e/1 
+b -> d/1 f/1 
+c -> e/1 f/1 
+d -> a/1 b/1 f/1 
+e -> a/1 c/1 
+f -> b/1 c/1 d/1 
+
+twin_width : 2
+Contraction Sequence : b/a d/ba dba/c e/dbac f/edbac 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> d/1 
+c -> e/1 
+d -> a/1 b/1 f/1 
+e -> a/1 c/1 f/1 
+f -> a/1 d/1 e/1 
+
+twin_width : 1
+Contraction Sequence : f/a d/b fa/c e/db fac/edb 
+---------------------------------------------------------
+
+a -> d/1 e/1 
+b -> d/1 f/1 
+c -> e/1 
+d -> a/1 b/1 f/1 
+e -> a/1 c/1 f/1 
+f -> b/1 d/1 e/1 
+
+twin_width : 1
+Contraction Sequence : c/a d/b e/db edb/ca f/edbca 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> d/1 f/1 
+c -> e/1 f/1 
+d -> a/1 b/1 f/1 
+e -> a/1 c/1 
+f -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+Contraction Sequence : b/a d/ba dba/c e/dbac f/edbac 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> d/1 f/1 
+c -> e/1 
+d -> a/1 b/1 f/1 
+e -> a/1 c/1 f/1 
+f -> a/1 b/1 d/1 e/1 
+
+twin_width : 1
+Contraction Sequence : b/a d/ba e/dba edba/c f/edbac 
+---------------------------------------------------------
+
+a -> d/1 e/1 
+b -> d/1 f/1 
+c -> e/1 f/1 
+d -> a/1 b/1 f/1 
+e -> a/1 c/1 f/1 
+f -> b/1 c/1 d/1 e/1 
+
+twin_width : 2
+Contraction Sequence : b/a d/ba dba/c e/dbac f/edbac 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> d/1 f/1 
+c -> e/1 f/1 
+d -> a/1 b/1 f/1 
+e -> a/1 c/1 f/1 
+f -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+Contraction Sequence : b/a d/ba dba/c e/dbac f/edbac 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> d/1 e/1 f/1 
+c -> e/1 f/1 
+d -> a/1 b/1 
+e -> a/1 b/1 c/1 
+f -> a/1 b/1 c/1 
+
+twin_width : 1
+Contraction Sequence : b/a c/ba e/d ed/cba f/edcba 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> d/1 e/1 f/1 
+c -> e/1 
+d -> a/1 b/1 f/1 
+e -> a/1 b/1 c/1 
+f -> a/1 b/1 d/1 
+
+twin_width : 1
+Contraction Sequence : b/a d/ba e/c ec/dba f/ecdba 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> d/1 e/1 f/1 
+c -> e/1 f/1 
+d -> a/1 b/1 f/1 
+e -> a/1 b/1 c/1 
+f -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+Contraction Sequence : b/a c/ba d/cba e/dcba f/edcba 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> d/1 e/1 f/1 
+c -> e/1 f/1 
+d -> a/1 b/1 
+e -> a/1 b/1 c/1 f/1 
+f -> a/1 b/1 c/1 e/1 
+
+twin_width : 1
+Contraction Sequence : b/a c/ba e/cba ecba/d f/ecbad 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> d/1 e/1 f/1 
+c -> e/1 f/1 
+d -> a/1 b/1 f/1 
+e -> a/1 b/1 c/1 f/1 
+f -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+Contraction Sequence : b/a c/ba d/cba e/dcba f/edcba 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> d/1 e/1 f/1 
+c -> f/1 
+d -> a/1 b/1 e/1 f/1 
+e -> a/1 b/1 d/1 
+f -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+Contraction Sequence : b/a d/ba dba/c e/dbac f/edbac 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> d/1 e/1 
+c -> f/1 
+d -> a/1 b/1 e/1 f/1 
+e -> a/1 b/1 d/1 f/1 
+f -> a/1 c/1 d/1 e/1 
+
+twin_width : 1
+Contraction Sequence : b/a d/ba e/dba edba/c f/edbac 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> d/1 e/1 f/1 
+c -> f/1 
+d -> a/1 b/1 e/1 f/1 
+e -> a/1 b/1 d/1 f/1 
+f -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 0
+Contraction Sequence : b/a d/ba e/dba edba/c f/edbac 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> d/1 f/1 
+c -> e/1 f/1 
+d -> a/1 b/1 e/1 f/1 
+e -> a/1 c/1 d/1 
+f -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+Contraction Sequence : b/a d/ba dba/c e/dbac f/edbac 
+---------------------------------------------------------
+
+a -> d/1 e/1 
+b -> d/1 f/1 
+c -> e/1 f/1 
+d -> a/1 b/1 e/1 f/1 
+e -> a/1 c/1 d/1 f/1 
+f -> b/1 c/1 d/1 e/1 
+
+twin_width : 2
+Contraction Sequence : b/a d/ba dba/c e/dbac f/edbac 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> d/1 f/1 
+c -> e/1 f/1 
+d -> a/1 b/1 e/1 f/1 
+e -> a/1 c/1 d/1 f/1 
+f -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+Contraction Sequence : b/a d/ba dba/c e/dbac f/edbac 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> d/1 e/1 f/1 
+c -> e/1 f/1 
+d -> a/1 b/1 e/1 f/1 
+e -> a/1 b/1 c/1 d/1 f/1 
+f -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 0
+Contraction Sequence : b/a d/ba dba/c e/dbac f/edbac 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> d/1 e/1 f/1 
+c -> d/1 e/1 f/1 
+d -> a/1 b/1 c/1 
+e -> a/1 b/1 c/1 
+f -> a/1 b/1 c/1 
+
+twin_width : 0
+Contraction Sequence : b/a c/ba e/d f/ed fed/cba 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> d/1 e/1 f/1 
+c -> d/1 e/1 f/1 
+d -> a/1 b/1 c/1 f/1 
+e -> a/1 b/1 c/1 
+f -> a/1 b/1 c/1 d/1 
+
+twin_width : 0
+Contraction Sequence : b/a c/ba f/d fd/e fde/cba 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> d/1 e/1 f/1 
+c -> d/1 e/1 
+d -> a/1 b/1 c/1 f/1 
+e -> a/1 b/1 c/1 f/1 
+f -> a/1 b/1 d/1 e/1 
+
+twin_width : 0
+Contraction Sequence : b/a e/d f/ba fba/c fbac/ed 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> d/1 e/1 f/1 
+c -> d/1 e/1 f/1 
+d -> a/1 b/1 c/1 f/1 
+e -> a/1 b/1 c/1 f/1 
+f -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 0
+Contraction Sequence : b/a c/ba e/d ed/cba f/edcba 
+---------------------------------------------------------
+
+a -> d/1 e/1 f/1 
+b -> d/1 e/1 f/1 
+c -> d/1 e/1 f/1 
+d -> a/1 b/1 c/1 e/1 f/1 
+e -> a/1 b/1 c/1 d/1 f/1 
+f -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 0
+Contraction Sequence : b/a c/ba d/cba e/dcba f/edcba 
+---------------------------------------------------------
+
+a -> c/1 e/1 f/1 
+b -> d/1 f/1 
+c -> a/1 e/1 f/1 
+d -> b/1 
+e -> a/1 c/1 
+f -> a/1 b/1 c/1 
+
+twin_width : 1
+Contraction Sequence : c/a d/b f/db e/ca fdb/eca 
+---------------------------------------------------------
+
+a -> c/1 e/1 f/1 
+b -> d/1 f/1 
+c -> a/1 e/1 
+d -> b/1 f/1 
+e -> a/1 c/1 
+f -> a/1 b/1 d/1 
+
+twin_width : 1
+Contraction Sequence : c/a d/b e/ca eca/db f/ecadb 
+---------------------------------------------------------
+
+a -> c/1 e/1 f/1 
+b -> d/1 f/1 
+c -> a/1 e/1 f/1 
+d -> b/1 f/1 
+e -> a/1 c/1 
+f -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+Contraction Sequence : c/a d/b db/ca e/dbca f/edbca 
+---------------------------------------------------------
+
+a -> c/1 e/1 f/1 
+b -> d/1 f/1 
+c -> a/1 e/1 f/1 
+d -> b/1 
+e -> a/1 c/1 f/1 
+f -> a/1 b/1 c/1 e/1 
+
+twin_width : 1
+Contraction Sequence : c/a d/b e/ca eca/db f/ecadb 
+---------------------------------------------------------
+
+a -> c/1 e/1 f/1 
+b -> d/1 f/1 
+c -> a/1 e/1 f/1 
+d -> b/1 f/1 
+e -> a/1 c/1 f/1 
+f -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 0
+Contraction Sequence : c/a d/b e/ca eca/db f/ecadb 
+---------------------------------------------------------
+
+a -> c/1 e/1 f/1 
+b -> d/1 e/1 f/1 
+c -> a/1 e/1 
+d -> b/1 f/1 
+e -> a/1 b/1 c/1 
+f -> a/1 b/1 d/1 
+
+twin_width : 1
+Contraction Sequence : c/a f/d ca/b e/cab fd/ecab 
+---------------------------------------------------------
+
+a -> c/1 e/1 f/1 
+b -> d/1 e/1 f/1 
+c -> a/1 e/1 f/1 
+d -> b/1 f/1 
+e -> a/1 b/1 c/1 
+f -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+Contraction Sequence : c/a ca/b d/cab e/dcab f/edcab 
+---------------------------------------------------------
+
+a -> c/1 e/1 f/1 
+b -> d/1 e/1 f/1 
+c -> a/1 e/1 f/1 
+d -> b/1 
+e -> a/1 b/1 c/1 f/1 
+f -> a/1 b/1 c/1 e/1 
+
+twin_width : 1
+Contraction Sequence : c/a ca/b e/cab ecab/d f/ecabd 
+---------------------------------------------------------
+
+a -> c/1 e/1 f/1 
+b -> d/1 e/1 f/1 
+c -> a/1 e/1 
+d -> b/1 f/1 
+e -> a/1 b/1 c/1 f/1 
+f -> a/1 b/1 d/1 e/1 
+
+twin_width : 1
+Contraction Sequence : c/a f/b e/ca eca/d fb/ecad 
+---------------------------------------------------------
+
+a -> c/1 e/1 f/1 
+b -> d/1 e/1 
+c -> a/1 e/1 f/1 
+d -> b/1 f/1 
+e -> a/1 b/1 c/1 f/1 
+f -> a/1 c/1 d/1 e/1 
+
+twin_width : 1
+Contraction Sequence : c/a e/ca eca/d ecad/b f/ecadb 
+---------------------------------------------------------
+
+a -> c/1 e/1 f/1 
+b -> d/1 e/1 f/1 
+c -> a/1 e/1 f/1 
+d -> b/1 f/1 
+e -> a/1 b/1 c/1 f/1 
+f -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+Contraction Sequence : c/a ca/b d/cab e/dcab f/edcab 
+---------------------------------------------------------
+
+a -> c/1 e/1 f/1 
+b -> d/1 e/1 f/1 
+c -> a/1 e/1 f/1 
+d -> b/1 e/1 f/1 
+e -> a/1 b/1 c/1 d/1 
+f -> a/1 b/1 c/1 d/1 
+
+twin_width : 0
+Contraction Sequence : c/a d/b db/ca f/e fe/dbca 
+---------------------------------------------------------
+
+a -> c/1 e/1 f/1 
+b -> d/1 e/1 f/1 
+c -> a/1 e/1 f/1 
+d -> b/1 e/1 f/1 
+e -> a/1 b/1 c/1 d/1 f/1 
+f -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 0
+Contraction Sequence : c/a d/b db/ca e/dbca f/edbca 
+---------------------------------------------------------
+
+a -> c/1 d/1 f/1 
+b -> d/1 e/1 f/1 
+c -> a/1 e/1 f/1 
+d -> a/1 b/1 
+e -> b/1 c/1 
+f -> a/1 b/1 c/1 
+
+twin_width : 2
+Contraction Sequence : b/a c/ba d/cba e/dcba f/edcba 
+---------------------------------------------------------
+
+a -> c/1 d/1 f/1 
+b -> d/1 e/1 f/1 
+c -> a/1 e/1 
+d -> a/1 b/1 f/1 
+e -> b/1 c/1 
+f -> a/1 b/1 d/1 
+
+twin_width : 2
+Contraction Sequence : b/a d/ba dba/c e/dbac f/edbac 
+---------------------------------------------------------
+
+a -> c/1 d/1 f/1 
+b -> d/1 e/1 f/1 
+c -> a/1 e/1 f/1 
+d -> a/1 b/1 f/1 
+e -> b/1 c/1 
+f -> a/1 b/1 c/1 d/1 
+
+twin_width : 2
+Contraction Sequence : b/a c/ba d/cba e/dcba f/edcba 
+---------------------------------------------------------
+
+a -> c/1 d/1 f/1 
+b -> d/1 e/1 f/1 
+c -> a/1 e/1 f/1 
+d -> a/1 b/1 f/1 
+e -> b/1 c/1 f/1 
+f -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 2
+Contraction Sequence : b/a c/ba d/cba e/dcba f/edcba 
+---------------------------------------------------------
+
+a -> c/1 d/1 e/1 
+b -> d/1 e/1 f/1 
+c -> a/1 e/1 f/1 
+d -> a/1 b/1 f/1 
+e -> a/1 b/1 c/1 
+f -> b/1 c/1 d/1 
+
+twin_width : 2
+Contraction Sequence : b/a c/ba d/cba e/dcba f/edcba 
+---------------------------------------------------------
+
+a -> c/1 d/1 e/1 f/1 
+b -> d/1 e/1 f/1 
+c -> a/1 e/1 f/1 
+d -> a/1 b/1 f/1 
+e -> a/1 b/1 c/1 
+f -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+Contraction Sequence : b/a c/ba d/cba e/dcba f/edcba 
+---------------------------------------------------------
+
+a -> c/1 d/1 e/1 f/1 
+b -> d/1 e/1 f/1 
+c -> a/1 e/1 
+d -> a/1 b/1 f/1 
+e -> a/1 b/1 c/1 f/1 
+f -> a/1 b/1 d/1 e/1 
+
+twin_width : 1
+Contraction Sequence : b/a f/ba e/c ec/d fba/ecd 
+---------------------------------------------------------
+
+a -> c/1 d/1 e/1 f/1 
+b -> d/1 e/1 f/1 
+c -> a/1 e/1 f/1 
+d -> a/1 b/1 f/1 
+e -> a/1 b/1 c/1 f/1 
+f -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+Contraction Sequence : b/a c/ba d/cba e/dcba f/edcba 
+---------------------------------------------------------
+
+a -> c/1 d/1 e/1 f/1 
+b -> d/1 e/1 f/1 
+c -> a/1 e/1 f/1 
+d -> a/1 b/1 e/1 f/1 
+e -> a/1 b/1 c/1 d/1 f/1 
+f -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+Contraction Sequence : b/a c/ba d/cba e/dcba f/edcba 
+---------------------------------------------------------
+
+a -> c/1 d/1 e/1 f/1 
+b -> e/1 f/1 
+c -> a/1 d/1 e/1 f/1 
+d -> a/1 c/1 f/1 
+e -> a/1 b/1 c/1 
+f -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+Contraction Sequence : c/a ca/b d/cab e/dcab f/edcab 
+---------------------------------------------------------
+
+a -> c/1 d/1 e/1 f/1 
+b -> e/1 f/1 
+c -> a/1 d/1 e/1 f/1 
+d -> a/1 c/1 
+e -> a/1 b/1 c/1 f/1 
+f -> a/1 b/1 c/1 e/1 
+
+twin_width : 1
+Contraction Sequence : c/a ca/b e/cab ecab/d f/ecabd 
+---------------------------------------------------------
+
+a -> c/1 d/1 e/1 f/1 
+b -> e/1 f/1 
+c -> a/1 d/1 e/1 f/1 
+d -> a/1 c/1 f/1 
+e -> a/1 b/1 c/1 f/1 
+f -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 1
+Contraction Sequence : c/a ca/b d/cab e/dcab f/edcab 
+---------------------------------------------------------
+
+a -> c/1 d/1 e/1 f/1 
+b -> f/1 
+c -> a/1 d/1 e/1 f/1 
+d -> a/1 c/1 e/1 f/1 
+e -> a/1 c/1 d/1 
+f -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+Contraction Sequence : c/a d/ca dca/b e/dcab f/edcab 
+---------------------------------------------------------
+
+a -> c/1 d/1 e/1 f/1 
+b -> f/1 
+c -> a/1 d/1 e/1 f/1 
+d -> a/1 c/1 e/1 f/1 
+e -> a/1 c/1 d/1 f/1 
+f -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 0
+Contraction Sequence : c/a d/ca e/dca edca/b f/edcab 
+---------------------------------------------------------
+
+a -> c/1 d/1 e/1 f/1 
+b -> e/1 f/1 
+c -> a/1 d/1 e/1 f/1 
+d -> a/1 c/1 e/1 f/1 
+e -> a/1 b/1 c/1 d/1 f/1 
+f -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 0
+Contraction Sequence : c/a d/ca dca/b e/dcab f/edcab 
+---------------------------------------------------------
+
+a -> c/1 d/1 e/1 f/1 
+b -> d/1 e/1 f/1 
+c -> a/1 d/1 e/1 f/1 
+d -> a/1 b/1 c/1 e/1 f/1 
+e -> a/1 b/1 c/1 d/1 f/1 
+f -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 0
+Contraction Sequence : c/a ca/b d/cab e/dcab f/edcab 
+---------------------------------------------------------
+
+a -> c/1 d/1 e/1 f/1 
+b -> c/1 d/1 e/1 f/1 
+c -> a/1 b/1 e/1 f/1 
+d -> a/1 b/1 f/1 
+e -> a/1 b/1 c/1 
+f -> a/1 b/1 c/1 d/1 
+
+twin_width : 1
+Contraction Sequence : b/a c/ba d/cba e/dcba f/edcba 
+---------------------------------------------------------
+
+a -> c/1 d/1 e/1 f/1 
+b -> c/1 d/1 e/1 f/1 
+c -> a/1 b/1 e/1 f/1 
+d -> a/1 b/1 
+e -> a/1 b/1 c/1 f/1 
+f -> a/1 b/1 c/1 e/1 
+
+twin_width : 0
+Contraction Sequence : b/a e/c f/ec fec/d fecd/ba 
+---------------------------------------------------------
+
+a -> c/1 d/1 e/1 f/1 
+b -> c/1 d/1 e/1 
+c -> a/1 b/1 e/1 f/1 
+d -> a/1 b/1 f/1 
+e -> a/1 b/1 c/1 f/1 
+f -> a/1 c/1 d/1 e/1 
+
+twin_width : 0
+Contraction Sequence : e/c ec/d f/a fa/b fab/ecd 
+---------------------------------------------------------
+
+a -> c/1 d/1 e/1 f/1 
+b -> c/1 d/1 e/1 f/1 
+c -> a/1 b/1 e/1 f/1 
+d -> a/1 b/1 f/1 
+e -> a/1 b/1 c/1 f/1 
+f -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 0
+Contraction Sequence : b/a e/c ec/d ecd/ba f/ecdba 
+---------------------------------------------------------
+
+a -> c/1 d/1 e/1 f/1 
+b -> c/1 d/1 e/1 f/1 
+c -> a/1 b/1 e/1 f/1 
+d -> a/1 b/1 e/1 f/1 
+e -> a/1 b/1 c/1 d/1 
+f -> a/1 b/1 c/1 d/1 
+
+twin_width : 0
+Contraction Sequence : b/a d/c dc/ba f/e fe/dcba 
+---------------------------------------------------------
+
+a -> c/1 d/1 e/1 f/1 
+b -> c/1 d/1 e/1 f/1 
+c -> a/1 b/1 e/1 f/1 
+d -> a/1 b/1 e/1 f/1 
+e -> a/1 b/1 c/1 d/1 f/1 
+f -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 0
+Contraction Sequence : b/a d/c dc/ba e/dcba f/edcba 
+---------------------------------------------------------
+
+a -> c/1 d/1 e/1 f/1 
+b -> c/1 d/1 e/1 f/1 
+c -> a/1 b/1 d/1 e/1 f/1 
+d -> a/1 b/1 c/1 e/1 f/1 
+e -> a/1 b/1 c/1 d/1 f/1 
+f -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 0
+Contraction Sequence : b/a c/ba d/cba e/dcba f/edcba 
+---------------------------------------------------------
+
+a -> b/1 c/1 d/1 e/1 f/1 
+b -> a/1 c/1 d/1 e/1 f/1 
+c -> a/1 b/1 d/1 e/1 f/1 
+d -> a/1 b/1 c/1 e/1 f/1 
+e -> a/1 b/1 c/1 d/1 f/1 
+f -> a/1 b/1 c/1 d/1 e/1 
+
+twin_width : 0
+Contraction Sequence : b/a c/ba d/cba e/dcba f/edcba 
+---------------------------------------------------------
+
