@@ -1,0 +1,2 @@
+# Twin-Width
+Twin-width is a recently introduced graph invariant parameter in 2020. Computing twin-width is NP-Complete. In this project we would discuss an heuristic and a exact tract to compute contraction-sequence and the twin-width for an undirected graph .We verified the correctness of our algorithm by running it over the data-set provided by PACE challenge 2023.The algorithm was also made to run over all possible isomorphic graphs for a given size. A  comparison has also been made between the exact and heuristic solutions.
