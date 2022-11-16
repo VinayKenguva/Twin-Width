@@ -1,0 +1,141 @@
+#include<bits/stdc++.h>
+using namespace std;
+vector<string>res_path,cur_path;
+
+int find_d(map<string,map<string,int>>g){
+    int res=0;
+    for(auto it:g){
+        int ct=0;
+        for(auto it2:it.second){
+            if(it2.second==2) ct++;
+        }
+        res=max(res,ct);
+    }
+    return res;
+}
+
+map<string,map<string,int>> merge_nodes(map<string,map<string,int>>&g,string node1,string node2){
+    
+
+    string new_node = node1+node2;
+    map<string,map<string,int>>res_g;
+    if(g.size()==2){
+        res_g[new_node] = {};
+        return res_g;
+    }
+
+    for(auto it:g){  // o(n)
+        if(it.first!=node1 && it.first!=node2){
+            for(auto it2:it.second){   // o(n)
+                if(it2.first!=node1 && it2.first!=node2) res_g[it.first][it2.first]=it2.second;
+            }
+            if(it.second.find(node1)!=it.second.end() && it.second.find(node2)!=it.second.end()){
+                if(it.second[node1]==1 && it.second[node2]==1) {
+                    res_g[it.first][new_node]=1;     // log(n)*log(n)
+                    res_g[new_node][it.first]=1;
+                }
+                else{
+                   res_g[it.first][new_node]=2;
+                   res_g[new_node][it.first]=2; 
+                }    
+            }
+            else if(it.second.find(node1)!=it.second.end()){
+                    res_g[it.first][new_node]=2; 
+                    res_g[new_node][it.first]=2;
+            }
+            else if(it.second.find(node2)!=it.second.end()){
+                    res_g[it.first][new_node]=2;
+                    res_g[new_node][it.first]=2;
+            }
+        }
+    }
+    return res_g;
+}
+
+void find_twin_width(map<string,map<string,int>>&g,int running_twin_width,int &res,vector<string>&cur_path){
+    
+    if(g.size()==1){
+        if(res>running_twin_width){
+            res=running_twin_width;
+            res_path=cur_path;
+        }
+        return;
+    }
+    
+    int val1=0,val2=0;
+    for(auto it1:g){
+        val2=0;
+        for(auto it2:g){
+            if(val2<val1){
+                map<string,map<string,int>>new_g = merge_nodes(g,it1.first,it2.first);
+                int cur_d = find_d(new_g);
+                int new_running_twin_width = max(running_twin_width,cur_d);
+                cur_path.push_back(it1.first+"/"+it2.first);
+                find_twin_width(new_g,new_running_twin_width,res,cur_path);
+                cur_path.pop_back();
+            }
+            else break;
+            val2++;
+        }
+        val1++;
+    }
+    
+}
+
+
+
+int main(){
+   
+    ifstream inFile;
+    ofstream outFile;
+    inFile.open("input.txt");
+    outFile.open ("output.txt");
+    int g_ct=6,g_size=4;
+    
+    for(int i=0;i<g_ct;i++){
+       
+    int x,n=g_size;
+    vector<vector<int>>adj_mat(n,vector<int>(n,-1));
+    if (!inFile) {
+        cout << "Unable to open file";
+        exit(1); 
+    }
+    for(int i=0;i<n;i++){
+        for(int j=0;j<n;j++){
+            inFile>>x;
+            adj_mat[i][j]=x;
+        }
+    }
+    map<string,map<string,int>>g;
+    for(int i=0;i<n;i++){
+        for(int j=0;j<n;j++){
+            if(adj_mat[i][j]){
+                char ch1='a'+i;
+                char ch2='a'+j;
+                string str1="",str2="";
+                str1+=ch1;str2+=ch2;
+                g[str1].insert({str2,1});
+            }
+        }
+    }
+    
+    for(auto it:g){
+        outFile<<it.first<<" -> ";
+        for(auto it2:it.second){
+            outFile<<it2.first<<"/"<<it2.second<<" ";
+        }
+        outFile<<endl;
+    }
+    outFile<<endl;
+    int running_twin_width=INT_MIN,res=INT_MAX;
+    find_twin_width(g,running_twin_width,res,cur_path);
+    
+    outFile<<"twin_width : "<<res<<endl;
+    for(auto it:res_path) outFile<<it<<" ";
+    outFile<<endl;
+    outFile<<"---------------------------------------------------------"<<endl<<endl;
+    }
+    
+    inFile.close();
+    return 0;
+}
